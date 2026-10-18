@@ -1,0 +1,17 @@
+{
+  "name": "arc-vfx-mcp-workspace", "private": true, "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p mcp && node scripts/build-plugin.mjs",
+    "build:mcp": "tsc -p mcp",
+    "build:plugin": "node scripts/build-plugin.mjs",
+    "typecheck": "tsc -p mcp --noEmit",
+    "test": "npm run build:mcp && node --test tests/*.test.mjs",
+    "bridge": "node mcp/dist/transport/bridge.js",
+    "mcp": "node mcp/dist/server/index.js",
+    "install:local": "powershell -NoProfile -File scripts/install-local.ps1",
+    "package": "node scripts/package.mjs"
+  },
+  "dependencies": {"@modelcontextprotocol/server":"2.3.1", "@modelcontextprotocol/client":"2.3.1", "zod":"^4.1.0"},
+  "devDependencies": {"typescript":"^5.9.0", "@types/node":"^22.0.0"}
+}

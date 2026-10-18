@@ -1,0 +1,1724 @@
+{
+  "version": 1,
+  "id": "ice_explosion_01",
+  "name": "Explosão congelante",
+  "duration": 1.8,
+  "fps": 60,
+  "objects": [
+    {
+      "id": "crystal_0",
+      "name": "Crystal 1",
+      "type": "WedgePart",
+      "preset": "ice_shard",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            0.8,
+            4,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.12,
+            0.2,
+            0.15
+          ]
+        },
+        "Transparency": 1
+      }
+    },
+    {
+      "id": "crystal_1",
+      "name": "Crystal 2",
+      "type": "WedgePart",
+      "preset": "ice_shard",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            0.5656854249492381,
+            4,
+            0.565685424949238,
+            0.7071067811865476,
+            0,
+            0.7071067811865475,
+            0,
+            1,
+            0,
+            -0.7071067811865475,
+            0,
+            0.7071067811865476
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.12,
+            0.2,
+            0.15
+          ]
+        },
+        "Transparency": 1
+      }
+    },
+    {
+      "id": "crystal_2",
+      "name": "Crystal 3",
+      "type": "WedgePart",
+      "preset": "ice_shard",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            4.898587196589413e-17,
+            4,
+            0.8,
+            6.123233995736766e-17,
+            0,
+            1,
+            0,
+            1,
+            0,
+            -1,
+            0,
+            6.123233995736766e-17
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.12,
+            0.2,
+            0.15
+          ]
+        },
+        "Transparency": 1
+      }
+    },
+    {
+      "id": "crystal_3",
+      "name": "Crystal 4",
+      "type": "WedgePart",
+      "preset": "ice_shard",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -0.565685424949238,
+            4,
+            0.5656854249492381,
+            -0.7071067811865475,
+            0,
+            0.7071067811865476,
+            0,
+            1,
+            0,
+            -0.7071067811865476,
+            0,
+            -0.7071067811865475
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.12,
+            0.2,
+            0.15
+          ]
+        },
+        "Transparency": 1
+      }
+    },
+    {
+      "id": "crystal_4",
+      "name": "Crystal 5",
+      "type": "WedgePart",
+      "preset": "ice_shard",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -0.8,
+            4,
+            9.797174393178826e-17,
+            -1,
+            0,
+            1.2246467991473532e-16,
+            0,
+            1,
+            0,
+            -1.2246467991473532e-16,
+            0,
+            -1
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.12,
+            0.2,
+            0.15
+          ]
+        },
+        "Transparency": 1
+      }
+    },
+    {
+      "id": "crystal_5",
+      "name": "Crystal 6",
+      "type": "WedgePart",
+      "preset": "ice_shard",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -0.5656854249492381,
+            4,
+            -0.565685424949238,
+            -0.7071067811865477,
+            0,
+            -0.7071067811865475,
+            0,
+            1,
+            0,
+            0.7071067811865475,
+            0,
+            -0.7071067811865477
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.12,
+            0.2,
+            0.15
+          ]
+        },
+        "Transparency": 1
+      }
+    },
+    {
+      "id": "crystal_6",
+      "name": "Crystal 7",
+      "type": "WedgePart",
+      "preset": "ice_shard",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -1.4695761589768238e-16,
+            4,
+            -0.8,
+            -1.8369701987210297e-16,
+            0,
+            -1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            -1.8369701987210297e-16
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.12,
+            0.2,
+            0.15
+          ]
+        },
+        "Transparency": 1
+      }
+    },
+    {
+      "id": "crystal_7",
+      "name": "Crystal 8",
+      "type": "WedgePart",
+      "preset": "ice_shard",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            0.5656854249492379,
+            4,
+            -0.5656854249492381,
+            0.7071067811865474,
+            0,
+            -0.7071067811865477,
+            0,
+            1,
+            0,
+            0.7071067811865477,
+            0,
+            0.7071067811865474
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.12,
+            0.2,
+            0.15
+          ]
+        },
+        "Transparency": 1
+      }
+    },
+    {
+      "id": "mist",
+      "name": "Cold mist",
+      "type": "ParticleEmitter",
+      "preset": "ice_mist",
+      "properties": {}
+    },
+    {
+      "id": "shards",
+      "name": "Ice shards",
+      "type": "ParticleEmitter",
+      "preset": "ice_burst",
+      "properties": {}
+    }
+  ],
+  "timeline": [
+    {
+      "objectId": "crystal_0",
+      "frame": 0,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            0.8,
+            4,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.12,
+            0.2,
+            0.15
+          ]
+        },
+        "Transparency": 1
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_0",
+      "frame": 12,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            0.8,
+            4,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.2,
+            0.5,
+            0.3
+          ]
+        },
+        "Transparency": 0.3
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_0",
+      "frame": 21,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            3,
+            5,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.7,
+            3,
+            0.9
+          ]
+        },
+        "Transparency": 0.1
+      },
+      "easingStyle": "Quint",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_0",
+      "frame": 55,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            5.5,
+            4.2,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.4,
+            1.6,
+            0.5
+          ]
+        },
+        "Transparency": 0.5
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_0",
+      "frame": 94,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            7,
+            2,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.05,
+            0.1,
+            0.05
+          ]
+        },
+        "Transparency": 1
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_1",
+      "frame": 0,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            0.5656854249492381,
+            4,
+            0.565685424949238,
+            0.7071067811865476,
+            0,
+            0.7071067811865475,
+            0,
+            1,
+            0,
+            -0.7071067811865475,
+            0,
+            0.7071067811865476
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.12,
+            0.2,
+            0.15
+          ]
+        },
+        "Transparency": 1
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_1",
+      "frame": 12,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            0.5656854249492381,
+            4,
+            0.565685424949238,
+            0.7071067811865476,
+            0,
+            0.7071067811865475,
+            0,
+            1,
+            0,
+            -0.7071067811865475,
+            0,
+            0.7071067811865476
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.2,
+            0.5,
+            0.3
+          ]
+        },
+        "Transparency": 0.3
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_1",
+      "frame": 21,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            2.121320343559643,
+            5,
+            2.1213203435596424,
+            0.7071067811865476,
+            0,
+            0.7071067811865475,
+            0,
+            1,
+            0,
+            -0.7071067811865475,
+            0,
+            0.7071067811865476
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.7,
+            3,
+            0.9
+          ]
+        },
+        "Transparency": 0.1
+      },
+      "easingStyle": "Quint",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_1",
+      "frame": 55,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            3.8890872965260117,
+            4.2,
+            3.889087296526011,
+            0.7071067811865476,
+            0,
+            0.7071067811865475,
+            0,
+            1,
+            0,
+            -0.7071067811865475,
+            0,
+            0.7071067811865476
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.4,
+            1.6,
+            0.5
+          ]
+        },
+        "Transparency": 0.5
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_1",
+      "frame": 94,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            4.949747468305833,
+            2,
+            4.949747468305832,
+            0.7071067811865476,
+            0,
+            0.7071067811865475,
+            0,
+            1,
+            0,
+            -0.7071067811865475,
+            0,
+            0.7071067811865476
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.05,
+            0.1,
+            0.05
+          ]
+        },
+        "Transparency": 1
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_2",
+      "frame": 0,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            4.898587196589413e-17,
+            4,
+            0.8,
+            6.123233995736766e-17,
+            0,
+            1,
+            0,
+            1,
+            0,
+            -1,
+            0,
+            6.123233995736766e-17
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.12,
+            0.2,
+            0.15
+          ]
+        },
+        "Transparency": 1
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_2",
+      "frame": 12,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            4.898587196589413e-17,
+            4,
+            0.8,
+            6.123233995736766e-17,
+            0,
+            1,
+            0,
+            1,
+            0,
+            -1,
+            0,
+            6.123233995736766e-17
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.2,
+            0.5,
+            0.3
+          ]
+        },
+        "Transparency": 0.3
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_2",
+      "frame": 21,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            1.8369701987210297e-16,
+            5,
+            3,
+            6.123233995736766e-17,
+            0,
+            1,
+            0,
+            1,
+            0,
+            -1,
+            0,
+            6.123233995736766e-17
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.7,
+            3,
+            0.9
+          ]
+        },
+        "Transparency": 0.1
+      },
+      "easingStyle": "Quint",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_2",
+      "frame": 55,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            3.3677786976552215e-16,
+            4.2,
+            5.5,
+            6.123233995736766e-17,
+            0,
+            1,
+            0,
+            1,
+            0,
+            -1,
+            0,
+            6.123233995736766e-17
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.4,
+            1.6,
+            0.5
+          ]
+        },
+        "Transparency": 0.5
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_2",
+      "frame": 94,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            4.286263797015736e-16,
+            2,
+            7,
+            6.123233995736766e-17,
+            0,
+            1,
+            0,
+            1,
+            0,
+            -1,
+            0,
+            6.123233995736766e-17
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.05,
+            0.1,
+            0.05
+          ]
+        },
+        "Transparency": 1
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_3",
+      "frame": 0,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -0.565685424949238,
+            4,
+            0.5656854249492381,
+            -0.7071067811865475,
+            0,
+            0.7071067811865476,
+            0,
+            1,
+            0,
+            -0.7071067811865476,
+            0,
+            -0.7071067811865475
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.12,
+            0.2,
+            0.15
+          ]
+        },
+        "Transparency": 1
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_3",
+      "frame": 12,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -0.565685424949238,
+            4,
+            0.5656854249492381,
+            -0.7071067811865475,
+            0,
+            0.7071067811865476,
+            0,
+            1,
+            0,
+            -0.7071067811865476,
+            0,
+            -0.7071067811865475
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.2,
+            0.5,
+            0.3
+          ]
+        },
+        "Transparency": 0.3
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_3",
+      "frame": 21,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -2.1213203435596424,
+            5,
+            2.121320343559643,
+            -0.7071067811865475,
+            0,
+            0.7071067811865476,
+            0,
+            1,
+            0,
+            -0.7071067811865476,
+            0,
+            -0.7071067811865475
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.7,
+            3,
+            0.9
+          ]
+        },
+        "Transparency": 0.1
+      },
+      "easingStyle": "Quint",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_3",
+      "frame": 55,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -3.889087296526011,
+            4.2,
+            3.8890872965260117,
+            -0.7071067811865475,
+            0,
+            0.7071067811865476,
+            0,
+            1,
+            0,
+            -0.7071067811865476,
+            0,
+            -0.7071067811865475
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.4,
+            1.6,
+            0.5
+          ]
+        },
+        "Transparency": 0.5
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_3",
+      "frame": 94,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -4.949747468305832,
+            2,
+            4.949747468305833,
+            -0.7071067811865475,
+            0,
+            0.7071067811865476,
+            0,
+            1,
+            0,
+            -0.7071067811865476,
+            0,
+            -0.7071067811865475
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.05,
+            0.1,
+            0.05
+          ]
+        },
+        "Transparency": 1
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_4",
+      "frame": 0,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -0.8,
+            4,
+            9.797174393178826e-17,
+            -1,
+            0,
+            1.2246467991473532e-16,
+            0,
+            1,
+            0,
+            -1.2246467991473532e-16,
+            0,
+            -1
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.12,
+            0.2,
+            0.15
+          ]
+        },
+        "Transparency": 1
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_4",
+      "frame": 12,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -0.8,
+            4,
+            9.797174393178826e-17,
+            -1,
+            0,
+            1.2246467991473532e-16,
+            0,
+            1,
+            0,
+            -1.2246467991473532e-16,
+            0,
+            -1
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.2,
+            0.5,
+            0.3
+          ]
+        },
+        "Transparency": 0.3
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_4",
+      "frame": 21,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -3,
+            5,
+            3.6739403974420594e-16,
+            -1,
+            0,
+            1.2246467991473532e-16,
+            0,
+            1,
+            0,
+            -1.2246467991473532e-16,
+            0,
+            -1
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.7,
+            3,
+            0.9
+          ]
+        },
+        "Transparency": 0.1
+      },
+      "easingStyle": "Quint",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_4",
+      "frame": 55,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -5.5,
+            4.2,
+            6.735557395310443e-16,
+            -1,
+            0,
+            1.2246467991473532e-16,
+            0,
+            1,
+            0,
+            -1.2246467991473532e-16,
+            0,
+            -1
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.4,
+            1.6,
+            0.5
+          ]
+        },
+        "Transparency": 0.5
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_4",
+      "frame": 94,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -7,
+            2,
+            8.572527594031472e-16,
+            -1,
+            0,
+            1.2246467991473532e-16,
+            0,
+            1,
+            0,
+            -1.2246467991473532e-16,
+            0,
+            -1
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.05,
+            0.1,
+            0.05
+          ]
+        },
+        "Transparency": 1
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_5",
+      "frame": 0,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -0.5656854249492381,
+            4,
+            -0.565685424949238,
+            -0.7071067811865477,
+            0,
+            -0.7071067811865475,
+            0,
+            1,
+            0,
+            0.7071067811865475,
+            0,
+            -0.7071067811865477
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.12,
+            0.2,
+            0.15
+          ]
+        },
+        "Transparency": 1
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_5",
+      "frame": 12,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -0.5656854249492381,
+            4,
+            -0.565685424949238,
+            -0.7071067811865477,
+            0,
+            -0.7071067811865475,
+            0,
+            1,
+            0,
+            0.7071067811865475,
+            0,
+            -0.7071067811865477
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.2,
+            0.5,
+            0.3
+          ]
+        },
+        "Transparency": 0.3
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_5",
+      "frame": 21,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -2.121320343559643,
+            5,
+            -2.1213203435596424,
+            -0.7071067811865477,
+            0,
+            -0.7071067811865475,
+            0,
+            1,
+            0,
+            0.7071067811865475,
+            0,
+            -0.7071067811865477
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.7,
+            3,
+            0.9
+          ]
+        },
+        "Transparency": 0.1
+      },
+      "easingStyle": "Quint",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_5",
+      "frame": 55,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -3.889087296526012,
+            4.2,
+            -3.889087296526011,
+            -0.7071067811865477,
+            0,
+            -0.7071067811865475,
+            0,
+            1,
+            0,
+            0.7071067811865475,
+            0,
+            -0.7071067811865477
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.4,
+            1.6,
+            0.5
+          ]
+        },
+        "Transparency": 0.5
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_5",
+      "frame": 94,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -4.949747468305834,
+            2,
+            -4.949747468305832,
+            -0.7071067811865477,
+            0,
+            -0.7071067811865475,
+            0,
+            1,
+            0,
+            0.7071067811865475,
+            0,
+            -0.7071067811865477
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.05,
+            0.1,
+            0.05
+          ]
+        },
+        "Transparency": 1
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_6",
+      "frame": 0,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -1.4695761589768238e-16,
+            4,
+            -0.8,
+            -1.8369701987210297e-16,
+            0,
+            -1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            -1.8369701987210297e-16
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.12,
+            0.2,
+            0.15
+          ]
+        },
+        "Transparency": 1
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_6",
+      "frame": 12,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -1.4695761589768238e-16,
+            4,
+            -0.8,
+            -1.8369701987210297e-16,
+            0,
+            -1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            -1.8369701987210297e-16
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.2,
+            0.5,
+            0.3
+          ]
+        },
+        "Transparency": 0.3
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_6",
+      "frame": 21,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -5.51091059616309e-16,
+            5,
+            -3,
+            -1.8369701987210297e-16,
+            0,
+            -1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            -1.8369701987210297e-16
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.7,
+            3,
+            0.9
+          ]
+        },
+        "Transparency": 0.1
+      },
+      "easingStyle": "Quint",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_6",
+      "frame": 55,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -1.0103336092965664e-15,
+            4.2,
+            -5.5,
+            -1.8369701987210297e-16,
+            0,
+            -1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            -1.8369701987210297e-16
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.4,
+            1.6,
+            0.5
+          ]
+        },
+        "Transparency": 0.5
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_6",
+      "frame": 94,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -1.2858791391047208e-15,
+            2,
+            -7,
+            -1.8369701987210297e-16,
+            0,
+            -1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            -1.8369701987210297e-16
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.05,
+            0.1,
+            0.05
+          ]
+        },
+        "Transparency": 1
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_7",
+      "frame": 0,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            0.5656854249492379,
+            4,
+            -0.5656854249492381,
+            0.7071067811865474,
+            0,
+            -0.7071067811865477,
+            0,
+            1,
+            0,
+            0.7071067811865477,
+            0,
+            0.7071067811865474
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.12,
+            0.2,
+            0.15
+          ]
+        },
+        "Transparency": 1
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_7",
+      "frame": 12,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            0.5656854249492379,
+            4,
+            -0.5656854249492381,
+            0.7071067811865474,
+            0,
+            -0.7071067811865477,
+            0,
+            1,
+            0,
+            0.7071067811865477,
+            0,
+            0.7071067811865474
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.2,
+            0.5,
+            0.3
+          ]
+        },
+        "Transparency": 0.3
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_7",
+      "frame": 21,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            2.121320343559642,
+            5,
+            -2.121320343559643,
+            0.7071067811865474,
+            0,
+            -0.7071067811865477,
+            0,
+            1,
+            0,
+            0.7071067811865477,
+            0,
+            0.7071067811865474
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.7,
+            3,
+            0.9
+          ]
+        },
+        "Transparency": 0.1
+      },
+      "easingStyle": "Quint",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_7",
+      "frame": 55,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            3.8890872965260104,
+            4.2,
+            -3.889087296526012,
+            0.7071067811865474,
+            0,
+            -0.7071067811865477,
+            0,
+            1,
+            0,
+            0.7071067811865477,
+            0,
+            0.7071067811865474
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.4,
+            1.6,
+            0.5
+          ]
+        },
+        "Transparency": 0.5
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "crystal_7",
+      "frame": 94,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            4.949747468305832,
+            2,
+            -4.949747468305834,
+            0.7071067811865474,
+            0,
+            -0.7071067811865477,
+            0,
+            1,
+            0,
+            0.7071067811865477,
+            0,
+            0.7071067811865474
+          ]
+        },
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.05,
+            0.1,
+            0.05
+          ]
+        },
+        "Transparency": 1
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "Out"
+    },
+    {
+      "objectId": "mist",
+      "frame": 17,
+      "kind": "emit",
+      "emit": {
+        "EmitCount": 20,
+        "EmitDuration": 0.2,
+        "EmitDelay": 0
+      },
+      "properties": {}
+    },
+    {
+      "objectId": "shards",
+      "frame": 20,
+      "kind": "emit",
+      "emit": {
+        "EmitCount": 35,
+        "EmitDuration": 0,
+        "EmitDelay": 0
+      },
+      "properties": {}
+    }
+  ],
+  "metadata": {
+    "author": "Original Arc MCP demonstration",
+    "license": "Original primitive composition",
+    "quality": "standard"
+  }
+}

@@ -50,7 +50,7 @@ local handle = effect.Start({Target = CFrame.new(0, 5, 0), Attach = false})
 - `builds/Arc.rbxm`: editor Arc com extensão MCP, sem token.
 - `.local/Arc-MCP-Local.rbxm`: instalação pareada, privada.
 - `builds/IceExplosion.rbxm`, `builds/SwordSlash.rbxm`: projetos com runtime exportado.
-- `builds/ARC_MCP_VERIFICATION.rbxl`: fixture com os projetos de demonstração.
+- `builds/ARC_MCP_DEMOS.rbxl`: lugar independente com smoke test e os dois projetos de demonstração.
 - `library/catalog.json`: 55 presets curados de parâmetros.
 - `library/recipes/`: explosão congelante e corte de espada.
 - `tests/evidence/`: respostas reais e verificações locais; não publicadas automaticamente.

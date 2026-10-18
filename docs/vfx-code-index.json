@@ -1,0 +1,2090 @@
+{
+  "instances": 5531,
+  "scripts": 417,
+  "lines": 90718,
+  "modules": [
+    {
+      "path": "VFX Studio/MainPluginScript",
+      "lines": 170,
+      "functions": {},
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/TweenExecutor",
+      "lines": 490,
+      "functions": [
+        "getVFXContainer",
+        "_toVector3",
+        "_hasEffects",
+        "_calculateMaxEffectLifetime",
+        "_calculateMaxPropertyTweenLifetime",
+        "evaluateNumberSequence",
+        "_handleAllPropertyTweens",
+        "_spawnEmissionEffects",
+        "TweenExecutor.execute"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/FeatureDataPersistence",
+      "lines": 239,
+      "functions": [
+        "getOrCreateContainer",
+        "FeatureDataPersistence.SaveFeatureData",
+        "FeatureDataPersistence.LoadFeatureData"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/LocalVFXData",
+      "lines": 16,
+      "functions": {},
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/AudioSaver",
+      "lines": 76,
+      "functions": [
+        "AudioSaver.new",
+        "AudioSaver:saveAudioFromData",
+        "AudioSaver:saveSelectedSound"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/PluginUIManager",
+      "lines": 2078,
+      "functions": [
+        "_compareVersions",
+        "PluginUIManager:_checkForUpdates",
+        "PluginUIManager.new",
+        "PluginUIManager:_initializeViewManager",
+        "PluginUIManager:_captureOriginalPanelMetrics",
+        "captureRecursively",
+        "PluginUIManager:_applyScaledLayout",
+        "PluginUIManager:_applyLeftPanelLayout",
+        "PluginUIManager:_applyLeftPanelScaling",
+        "PluginUIManager:_rebindUI",
+        "updateLogoColors",
+        "PluginUIManager:_updateSearchBoxVisibility",
+        "PluginUIManager:_cleanupUIBindings",
+        "PluginUIManager:_createPanels",
+        "PluginUIManager:_toggleDockingState",
+        "PluginUIManager:initializeUI",
+        "PluginUIManager:_recalculateTexturesCanvas",
+        "PluginUIManager:_applyInfoPanelScale",
+        "PluginUIManager:_updateLeftPanelLayout",
+        "PluginUIManager:_initializeGridDisplay",
+        "PluginUIManager:_resizeGridForInfoPanel",
+        "PluginUIManager:_initializeContextMenuManager",
+        "PluginUIManager:_initializeNavigationManager",
+        "PluginUIManager:_handleUndockedFrame",
+        "PluginUIManager:_handleRenameItem",
+        "PluginUIManager:_handleItemRenamed",
+        "PluginUIManager:_handleVFXRemoved",
+        "PluginUIManager:_handleVFXNameChanged",
+        "PluginUIManager:_handleVFXKeywordsChanged",
+        "PluginUIManager:_handleRevertName",
+        "PluginUIManager:_handleRevertKeywords",
+        "PluginUIManager:_handleDeleteItem",
+        "PluginUIManager:_handleToggleFilter",
+        "PluginUIManager:_updateGridFilters",
+        "PluginUIManager:_setupGlobalInputListeners",
+        "PluginUIManager:_handleSelectionChangeOnInfoPanel",
+        "PluginUIManager:_connectResizableFrame",
+        "PluginUIManager:toggleCurrentView",
+        "PluginUIManager:toggleFloatingPanels",
+        "PluginUIManager:SetStudioCanvasVisible",
+        "PluginUIManager:_animatePluginVisibility",
+        "PluginUIManager:syncViewAndToolbarState",
+        "PluginUIManager:cleanupAllUI"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/SettingsManager",
+      "lines": 62,
+      "functions": [
+        "SettingsManager.new",
+        "SettingsManager:_load",
+        "SettingsManager:save",
+        "SettingsManager:initializeUI",
+        "SettingsManager:getInsertionSettings",
+        "SettingsManager:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/StudioIntegration",
+      "lines": 1004,
+      "functions": [
+        "StudioIntegration.new",
+        "StudioIntegration:_createFloatingUI",
+        "StudioIntegration:_handlePluginDeactivated",
+        "StudioIntegration:_executeEffectList",
+        "evaluateNumberSequence",
+        "StudioIntegration:_triggerSpecificEffects",
+        "StudioIntegration:_triggerVFXContainer",
+        "addEffect",
+        "StudioIntegration:ExecuteOnCompletionAction",
+        "StudioIntegration:_triggerMetaEffects",
+        "StudioIntegration:Initialize",
+        "StudioIntegration:SetPersistentLoopingMode",
+        "StudioIntegration:SetPersistentTrailMode",
+        "StudioIntegration:SetAlwaysShow",
+        "StudioIntegration:_scanAndSetupAllVFXInstances",
+        "setupInstance",
+        "StudioIntegration:_startOrStopLoopForContainer",
+        "StudioIntegration:_stopLoopForContainer",
+        "StudioIntegration:_triggerSingleEffectInstance",
+        "StudioIntegration:_updateSingleInstanceTrailState",
+        "StudioIntegration:_startPersistentTrailForInstance",
+        "StudioIntegration:_stopPersistentTrailForInstance",
+        "StudioIntegration:_stopAllPersistentLoops",
+        "StudioIntegration:_stopAllPersistentTrails",
+        "StudioIntegration:_restartAllActiveLoops",
+        "StudioIntegration:SetInfoPanel",
+        "StudioIntegration:SetStudioCanvasVisible",
+        "StudioIntegration:Cleanup",
+        "StudioIntegration:_handleSelectionChange",
+        "findTargetsRecursive"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/StudioPanelManager",
+      "lines": 292,
+      "functions": [
+        "StudioPanelManager.new",
+        "StudioPanelManager:cleanup",
+        "StudioPanelManager:_saveState",
+        "StudioPanelManager:_setDockOpen",
+        "StudioPanelManager:SetAlwaysShow",
+        "StudioPanelManager:updatePanelVisibility",
+        "StudioPanelManager:_setupConnections",
+        "updateHandleArrowColor",
+        "StudioPanelManager:_setupToolButtonEvents",
+        "StudioPanelManager:_syncAllVisuals",
+        "StudioPanelManager:_updateButtonAppearance",
+        "StudioPanelManager:_tweenGradient"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/ThemeManager",
+      "lines": 696,
+      "functions": [
+        "ThemeManager.new",
+        "ThemeManager:InitializeWithUserData",
+        "ThemeManager:_syncWithStudioTheme",
+        "ThemeManager:GetCurrentThemeName",
+        "ThemeManager:GetCurrentTheme",
+        "ThemeManager:GetAllThemes",
+        "ThemeManager:GetColor",
+        "ThemeManager:GetGradient",
+        "ThemeManager:_loadAndApplyTheme",
+        "ThemeManager:SetTheme",
+        "ThemeManager:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/VFXDataManager",
+      "lines": 473,
+      "functions": [
+        "deepClone",
+        "VFXDataManager.new",
+        "VFXDataManager:_loadLocalData",
+        "VFXDataManager:_fetchRemoteDataAsync",
+        "VFXDataManager:ReloadAllData",
+        "VFXDataManager:GetAllVFX",
+        "VFXDataManager:GetAllSavedVFX",
+        "VFXDataManager:FindVFXById",
+        "VFXDataManager:GetOriginalDefaultVFX",
+        "VFXDataManager:UpdateVFXName",
+        "VFXDataManager:UpdateFilterNameReferences",
+        "VFXDataManager:RenameSavedVFX",
+        "VFXDataManager:UpdateVFXKeywords",
+        "VFXDataManager:ToggleFilterOnVFX",
+        "VFXDataManager:RemoveVFXById",
+        "VFXDataManager:RemoveVFXFromFilter",
+        "VFXDataManager:RemoveSavedVFXByData",
+        "VFXDataManager:RevertVFXName",
+        "VFXDataManager:RevertVFXKeywords",
+        "VFXDataManager:AddSavedVFX",
+        "VFXDataManager:AddVFXFromUpload",
+        "VFXDataManager:AddVFXBatch",
+        "VFXDataManager:_updateVFXProperty",
+        "VFXDataManager:_getOrCreateUserVFXEntry",
+        "VFXDataManager:_mergeAllData",
+        "VFXDataManager:_updateSearchString",
+        "VFXDataManager:_sortDataArray"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/UserDataManager",
+      "lines": 240,
+      "functions": [
+        "UserDataManager.new",
+        "UserDataManager:_loadMasterData",
+        "UserDataManager:_saveMasterData",
+        "UserDataManager:_requestSave",
+        "UserDataManager:SaveChangesNow",
+        "UserDataManager:Destroy",
+        "UserDataManager:_runMigrations",
+        "UserDataManager:GetMasterData",
+        "UserDataManager:SetSetting",
+        "UserDataManager:SetAllSettings",
+        "UserDataManager:SetCustomFilters",
+        "UserDataManager:SetUserVFXData",
+        "UserDataManager:SetSavedVFX",
+        "UserDataManager:SetSavedMeshes",
+        "UserDataManager:SetSavedScripts",
+        "UserDataManager:SetSavedAudio",
+        "UserDataManager:SetPropertySets"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/VFXInsertionManager",
+      "lines": 509,
+      "functions": [
+        "VFXInsertionManager.new",
+        "_deserializeValue",
+        "VFXInsertionManager:_deserialize",
+        "VFXInsertionManager:_applyProperties",
+        "VFXInsertionManager:_createEmitterInstance",
+        "VFXInsertionManager:_reconstructHierarchy",
+        "VFXInsertionManager:InsertSavedVFX",
+        "VFXInsertionManager:InsertEffectById",
+        "VFXInsertionManager:ReplaceEffectById",
+        "VFXInsertionManager:_insertAsBeam",
+        "VFXInsertionManager:_insertAsParticleEmitter",
+        "VFXInsertionManager:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/CodeGenerator",
+      "lines": 122,
+      "functions": [
+        "CodeGenerator.findCommonAncestor",
+        "CodeGenerator.generatePathCode",
+        "CodeGenerator.generate",
+        "triggerEffects"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/CustomFilterManager",
+      "lines": 465,
+      "functions": [
+        "CustomFilterManager.new",
+        "CustomFilterManager:Initialize",
+        "CustomFilterManager:RescaleAllFilterText",
+        "CustomFilterManager:RescaleAllFilterButtons",
+        "CustomFilterManager:_createFilterUI",
+        "CustomFilterManager:_applyHoverEffectsToNewButton",
+        "updateInitialColors",
+        "CustomFilterManager:RequestSave",
+        "CustomFilterManager:SaveChangesNow",
+        "CustomFilterManager:GetAllFiltersData",
+        "CustomFilterManager:Destroy",
+        "CustomFilterManager:_toggleSettings",
+        "CustomFilterManager:_saveChanges",
+        "CustomFilterManager:_removeFilter",
+        "CustomFilterManager:_recursivelySetTransparency",
+        "CustomFilterManager:_recursivelyAnimateTransparency",
+        "CustomFilterManager:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/KeybindManager",
+      "lines": 468,
+      "functions": [
+        "KeybindManager.new",
+        "KeybindManager:_loadKeybinds",
+        "KeybindManager:_generateActionMap",
+        "KeybindManager:_saveKeybinds",
+        "KeybindManager:SetKeybindsActive",
+        "KeybindManager:ConnectActions",
+        "KeybindManager:GetKeybindFor",
+        "KeybindManager:UnbindAction",
+        "KeybindManager:ResetActionToDefault",
+        "KeybindManager:StartListening",
+        "KeybindManager:StopListening",
+        "KeybindManager:Cleanup",
+        "KeybindManager:_captureNewKeybind",
+        "KeybindManager:_saveAndValidate",
+        "KeybindManager:_validateAllKeybinds",
+        "KeybindManager:_getPressedKeyCombo",
+        "KeybindManager:_generateComboStringFromInput",
+        "KeybindManager:_keyComboToString",
+        "KeybindManager.PopulateDisplay"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/SoundPlayer",
+      "lines": 104,
+      "functions": [
+        "SoundPlayer.new",
+        "SoundPlayer:GetPreviewPlayer",
+        "SoundPlayer:GetGridPlaybackPlayer",
+        "SoundPlayer:PlaySound",
+        "SoundPlayer:LoadAndPlayPreview",
+        "SoundPlayer:StopPreview",
+        "SoundPlayer:SetLooping",
+        "SoundPlayer:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/VFXSaver",
+      "lines": 173,
+      "functions": [
+        "VFXSaver.new",
+        "VFXSaver:_serializeInstance",
+        "VFXSaver:saveSelectedVFX",
+        "findEmitters"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/MeshSaver",
+      "lines": 72,
+      "functions": [
+        "MeshSaver.new",
+        "MeshSaver:saveSelectedMesh"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/PropertySaver",
+      "lines": 102,
+      "functions": [
+        "_getValue",
+        "PropertySaver.new",
+        "PropertySaver:saveSelectedProperties"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/ScriptSaver",
+      "lines": 53,
+      "functions": [
+        "ScriptSaver.new",
+        "ScriptSaver:saveSelectedScript"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/MeshDataManager",
+      "lines": 36,
+      "functions": [
+        "MeshDataManager.new",
+        "MeshDataManager:AddSavedMesh",
+        "MeshDataManager:GetAllSavedMeshes",
+        "MeshDataManager:Destroy"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/MeshSerializer",
+      "lines": 162,
+      "functions": [
+        "sanitizeValue",
+        "serializeInstance",
+        "MeshSerializer.Serialize"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/PropertySerializer",
+      "lines": 37,
+      "functions": [
+        "PropertySerializer.Serialize"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/ViewManager",
+      "lines": 204,
+      "functions": [
+        "ViewManager.new",
+        "ViewManager:_initializeControllers",
+        "ViewManager:_buildViewConfig",
+        "ViewManager:getViewConfig",
+        "ViewManager:activateView",
+        "ViewManager:deactivateAllViews",
+        "ViewManager:getActiveController",
+        "ViewManager:refreshCurrentViewDataSource",
+        "ViewManager:cleanup",
+        "ViewManager:recalculateLayoutOnAllActive",
+        "ViewManager:Destroy"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/ContextMenuManager",
+      "lines": 622,
+      "functions": [
+        "ContextMenuManager.new",
+        "ContextMenuManager:show",
+        "ContextMenuManager:hideAll",
+        "ContextMenuManager:_setupBindings",
+        "ContextMenuManager:_populateFilterList",
+        "isFilterActive",
+        "ContextMenuManager:cleanup",
+        "ContextMenuManager:_resetDeleteConfirmState",
+        "ContextMenuManager:_positionFilterList",
+        "ContextMenuManager:_toggleFilterList",
+        "ContextMenuManager:_captureDescendantTransparencies",
+        "processGui",
+        "ContextMenuManager:_removeDescendantTransparencies",
+        "ContextMenuManager:_captureOriginalTransparencies",
+        "ContextMenuManager:_animateMenuTransparency",
+        "ContextMenuManager:_prepareItemMenu",
+        "ContextMenuManager:_positionAndAnimateIn",
+        "ContextMenuManager:_setupInteractiveButtonTweens",
+        "getThemeColors",
+        "updateVisuals",
+        "ContextMenuManager:_setupSimpleButtonTweens",
+        "updateThemeColors",
+        "ContextMenuManager:Destroy"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/ScriptInserter",
+      "lines": 57,
+      "functions": [
+        "ScriptInserter.new",
+        "ScriptInserter:Insert",
+        "ScriptInserter:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/NavigationManager",
+      "lines": 314,
+      "functions": [
+        "NavigationManager.new",
+        "NavigationManager:Initialize",
+        "NavigationManager:_onUnifiedNavChanged",
+        "NavigationManager:cleanup",
+        "NavigationManager:_updateUIVisibilityForView",
+        "NavigationManager:_setupPrimaryNavigation",
+        "NavigationManager:_setupTextureFilters",
+        "NavigationManager:_setupTopFilters",
+        "NavigationManager:_setupOtherTopFilters",
+        "onOtherTopFilterChanged"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Core/PanelManager",
+      "lines": 23,
+      "functions": [
+        "PanelManager.new",
+        "PanelManager:ShowPanel",
+        "PanelManager:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/SlidersPanel",
+      "lines": 1075,
+      "functions": [
+        "_hsvToHsl",
+        "_hslToHsv",
+        "SlidersPanel.new",
+        "SlidersPanel:updateSelection",
+        "SlidersPanel:cleanup",
+        "SlidersPanel:_captureDescendantProperties",
+        "SlidersPanel:_setupUI",
+        "SlidersPanel:_createSlider",
+        "updateTextColors",
+        "SlidersPanel:_updateTabVisuals",
+        "updateButtonState",
+        "SlidersPanel:_setupConnections",
+        "updateResetButtonVisuals",
+        "SlidersPanel:_animatePanel",
+        "SlidersPanel:_switchTab",
+        "SlidersPanel:_resetCurrentTab",
+        "SlidersPanel:_onSliderPress",
+        "SlidersPanel:_onSliderRelease",
+        "SlidersPanel:_onSliderChanged",
+        "SlidersPanel:_captureInitialColors",
+        "SlidersPanel:_calculateAverageHue",
+        "SlidersPanel:_calculateAverageSaturation",
+        "SlidersPanel:_calculateAverageLightness",
+        "SlidersPanel:_applyHslAdjustments",
+        "SlidersPanel:_transformColorSequence",
+        "SlidersPanel:_checkForExternalColorChanges",
+        "SlidersPanel:_resetHsl",
+        "SlidersPanel:_isSelectionGrayscale",
+        "SlidersPanel:_updateHslUI",
+        "SlidersPanel:_captureOriginalProperties",
+        "SlidersPanel:_resetRetimeScale",
+        "SlidersPanel:_applyRetime",
+        "SlidersPanel:_applyScale"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/UploadPanel",
+      "lines": 546,
+      "functions": [
+        "UploadPanel.new",
+        "UploadPanel:AnimateFrameVisibility",
+        "UploadPanel:_saveOriginalTransparencies",
+        "UploadPanel:_recursivelySetTransparency",
+        "UploadPanel:_recursivelyTweenTransparency",
+        "UploadPanel:_onAddClicked",
+        "UploadPanel:_updateCreateButtonState",
+        "UploadPanel:_setupAllConnections",
+        "UploadPanel:_handleSelectionChange",
+        "UploadPanel:OnBecameVisible",
+        "UploadPanel:cleanup",
+        "UploadPanel:_setUIForSelectionState",
+        "UploadPanel:_updateSingleUploadPreview",
+        "UploadPanel:_sanitizeFramerate",
+        "UploadPanel:_sanitizeResolution",
+        "UploadPanel:_setupGridSelector",
+        "UploadPanel:_initializeGridButtonStyles",
+        "UploadPanel:_updateAllGridButtonAppearances",
+        "UploadPanel:_applyCustomGridButtonStyle",
+        "UploadPanel:_resetInputFields"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/VFXGridDisplay",
+      "lines": 626,
+      "functions": [
+        "VFXGridDisplay.new",
+        "VFXGridDisplay:Activate",
+        "VFXGridDisplay:_updateUploadBadge",
+        "VFXGridDisplay:setImageClickedInCurrentInput",
+        "VFXGridDisplay:getImageClickedInCurrentInput",
+        "VFXGridDisplay:clearSelection",
+        "VFXGridDisplay:recalculateLayout",
+        "VFXGridDisplay:_updateVisibleItems",
+        "VFXGridDisplay:_loadItem",
+        "isFavorited",
+        "updateVisuals",
+        "playFavoriteAnimation",
+        "handleFavoriteClick",
+        "onAnimationComplete",
+        "VFXGridDisplay:_onItemClicked",
+        "VFXGridDisplay:_updateItemVisuals",
+        "VFXGridDisplay:_populateItemContent",
+        "VFXGridDisplay:cleanup",
+        "VFXGridDisplay:Deactivate",
+        "VFXGridDisplay:_setupAddTexturesButtonTweens"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/InfoPanel",
+      "lines": 507,
+      "functions": [
+        "InfoPanel.new",
+        "InfoPanel:showInfo",
+        "InfoPanel:_resetDeleteConfirmState",
+        "InfoPanel:hideInfo",
+        "InfoPanel:populateCustomFilters",
+        "isFilterActive",
+        "updateVisuals",
+        "InfoPanel:_captureOriginalTransparencies",
+        "processGui",
+        "InfoPanel:_animateVisibility",
+        "InfoPanel:_initializeUIState",
+        "InfoPanel:_updateContent",
+        "InfoPanel:_updateInsertButtonState",
+        "InfoPanel:_setFilterListOpen",
+        "InfoPanel:_setupConnections",
+        "addHoverEffect",
+        "setupFocusLost",
+        "InfoPanel:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/BezierPanel",
+      "lines": 2830,
+      "functions": [
+        "localScaleToVisual",
+        "BezierPanel:_captureApplyFrameProperties",
+        "BezierPanel:_animateApplyFrame",
+        "BezierPanel:_toggleApplyFrameVisibility",
+        "BezierPanel:_updateApplyToggleButtonVisuals",
+        "BezierPanel:_setupApplyToggleButtonVisuals",
+        "BezierPanel:_setupApplyButton",
+        "updateVisuals",
+        "BezierPanel:_updateReverseButtonVisuals",
+        "BezierPanel:_populateApplyFrame",
+        "BezierPanel:_getYAtTime",
+        "BezierPanel:_resetToSingleCurve",
+        "BezierPanel:_setupPresetButton",
+        "BezierPanel:_applyEasingStyleToSegment",
+        "onLinearAnimationComplete",
+        "BezierPanel:applyPreset",
+        "BezierPanel:_updatePresetButtonImages",
+        "BezierPanel:_setPresetsOpen",
+        "BezierPanel:_updatePresetsContainerVisuals",
+        "BezierPanel:_captureOriginalTransparencies",
+        "processGui",
+        "BezierPanel.new",
+        "attemptInitialization",
+        "BezierPanel:_initializeUIReferences",
+        "updateTooltipTheme",
+        "updateContextMenuColors",
+        "BezierPanel:_filterAndResizeApplyFrame",
+        "BezierPanel:_setupContextMenuButton",
+        "updateVisuals",
+        "BezierPanel:_initializeUIState",
+        "BezierPanel:_initializeFirstCurve",
+        "BezierPanel:_handlePan",
+        "BezierPanel:_handleZoom",
+        "BezierPanel:_constrainPan",
+        "BezierPanel:_setupAllConnections",
+        "BezierPanel:_moveAnchor",
+        "BezierPanel:_constrainAllKeypointEnvelopes",
+        "BezierPanel:_validateAndSwapRange",
+        "BezierPanel:_updateTooltipPosition",
+        "BezierPanel:_updateTooltipContent",
+        "BezierPanel:_toggleReverse",
+        "BezierPanel:_positionLine",
+        "BezierPanel:_showContextMenu",
+        "BezierPanel:_recursivelySetTransparency",
+        "BezierPanel:_animateMenuTransparency",
+        "BezierPanel:_hideContextMenu",
+        "BezierPanel:_setupEasingLists",
+        "BezierPanel:_styleSubMenuButton",
+        "updateVisuals",
+        "BezierPanel:_positionSubMenu",
+        "BezierPanel:_getPointOnCurve",
+        "BezierPanel:_addPoint",
+        "BezierPanel:_deletePoint",
+        "BezierPanel:_createKeypoint",
+        "BezierPanel:_createDraggablePoint",
+        "BezierPanel:_startDrag",
+        "BezierPanel:_endDrag",
+        "BezierPanel:_updateEnvelopeTextBox",
+        "BezierPanel:_animateTooltip",
+        "BezierPanel:_onRenderStepped",
+        "BezierPanel:_handleDrag",
+        "BezierPanel:_constrainKeypointEnvelope",
+        "BezierPanel:_constrainAllHandles",
+        "BezierPanel:_clampToVisibleGraph",
+        "BezierPanel:_moveHandle",
+        "BezierPanel:_moveEnvelope",
+        "BezierPanel:_updateEnvelopeHandles",
+        "BezierPanel:updateSelection",
+        "BezierPanel:_populatePropertiesList",
+        "format",
+        "BezierPanel:_sortKeypoints",
+        "BezierPanel:_updateGraph",
+        "BezierPanel:_updateHandleVisibility",
+        "BezierPanel:_drawCurvePath",
+        "BezierPanel:_handlePropertyChange",
+        "BezierPanel:_drawEnvelope",
+        "BezierPanel:_getEnvelopeFrameFromPool",
+        "BezierPanel:_drawAllHandleLines",
+        "getLine",
+        "BezierPanel:generateNumberSequence",
+        "getSegmentForTime",
+        "getVisualPointAtTime",
+        "calculateSegmentError",
+        "BezierPanel:_findPointAt",
+        "BezierPanel:_applyCurveToProperty",
+        "BezierPanel:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/HelpPanelManager",
+      "lines": 161,
+      "functions": [
+        "HelpPanelManager.new",
+        "HelpPanelManager:cleanup",
+        "HelpPanelManager:_setModalOpen",
+        "HelpPanelManager:_connectEvents",
+        "HelpPanelManager:_initializeState",
+        "HelpPanelManager:Cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/BezierUtils",
+      "lines": 535,
+      "functions": [
+        "BezierUtils._fastBezierGeneric",
+        "BezierUtils._fastBezierDerivativeGeneric",
+        "BezierUtils.tweenInstanceOnPath",
+        "visualScaleToLocal",
+        "localScaleToVisual",
+        "BezierUtils.createCurve",
+        "BezierUtils.isCurveValid",
+        "BezierUtils.subdivideCurve",
+        "BezierUtils.findClosestPointOnSpline",
+        "BezierUtils.drawCurve",
+        "BezierUtils.drawHandleLines",
+        "getLineFromPool",
+        "updateLine",
+        "BezierUtils.revertDrag",
+        "BezierUtils.findPointInSpline",
+        "BezierUtils.isEndpoint",
+        "BezierUtils.removePointAndCombine",
+        "BezierUtils.setAndPropagatePosition",
+        "moveHandle",
+        "BezierUtils.generateNumberSequence",
+        "BezierUtils.getProcessedPresetData",
+        "normalizeY"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/SettingsPanel",
+      "lines": 383,
+      "functions": [
+        "SettingsPanel.new",
+        "SettingsPanel:_updateEnableSwitchVisuals",
+        "SettingsPanel:_loadState",
+        "SettingsPanel:_saveState",
+        "SettingsPanel:_requestSave",
+        "SettingsPanel:cleanup",
+        "SettingsPanel:_setupSwitches",
+        "setup",
+        "SettingsPanel:_applyAllSettingsToLiveModules",
+        "SettingsPanel:_updateAllVisuals",
+        "SettingsPanel:_setupSettingTextBox",
+        "updateTextColors",
+        "formatText",
+        "SettingsPanel:_setupUIComponents",
+        "SettingsPanel:_createAndSetupSlider",
+        "updateThemeColors",
+        "SettingsPanel:_onSliderMove",
+        "SettingsPanel:ApplyLoadedScales",
+        "SettingsPanel:_applyScaleToPanel",
+        "SettingsPanel:_updateSwitchVisuals"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/PluginSettingsPanel",
+      "lines": 166,
+      "functions": [
+        "PluginSettingsPanel.new",
+        "updateMovableSectionColor",
+        "PluginSettingsPanel:cleanup",
+        "PluginSettingsPanel:_setupTabNavigation",
+        "onTabSelected"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/KeybindsPanel",
+      "lines": 388,
+      "functions": [
+        "KeybindsPanel.new",
+        "KeybindsPanel:SetTabActive",
+        "KeybindsPanel:_updateAllKeybindDisplayStrokes",
+        "KeybindsPanel:_updateTooltipTheme",
+        "KeybindsPanel:_updateOverlayVisibility",
+        "KeybindsPanel:_setupEnableSwitch",
+        "KeybindsPanel:_initialize",
+        "KeybindsPanel:_updateEnableSwitchVisuals",
+        "KeybindsPanel:_setupKeybindDisplay",
+        "KeybindsPanel:_updateStrokeColor",
+        "KeybindsPanel:_updateErrorVisuals",
+        "KeybindsPanel:_findDisplayForAction",
+        "KeybindsPanel:_createTooltip",
+        "KeybindsPanel:_showTooltip",
+        "KeybindsPanel:_hideTooltip",
+        "KeybindsPanel:_positionTooltip",
+        "KeybindsPanel:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/ViewportEmitter",
+      "lines": 543,
+      "functions": [
+        "evaluateNumberSequence",
+        "evaluateColorSequence",
+        "ViewportEmitter.new",
+        "ViewportEmitter:Pause",
+        "ViewportEmitter:Resume",
+        "ViewportEmitter:ResetAndPause",
+        "ViewportEmitter:Start",
+        "ViewportEmitter:Stop",
+        "ViewportEmitter:Emit",
+        "ViewportEmitter:_pausableWait",
+        "ViewportEmitter:_initializeParticleState",
+        "ViewportEmitter:_emitSingleParticle",
+        "ViewportEmitter:_updateParticles",
+        "ViewportEmitter:Destroy"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/VFXViewportController",
+      "lines": 405,
+      "functions": [
+        "deserialize",
+        "VFXViewportController:Activate",
+        "VFXViewportController:Deactivate",
+        "VFXViewportController.new",
+        "VFXViewportController:_reconstructPreviewHierarchy",
+        "VFXViewportController:_populateItemContent",
+        "VFXViewportController:_onItemClicked"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/EmitterController",
+      "lines": 1427,
+      "functions": [
+        "_calculateMaxEffectLifetime",
+        "_calculateMaxPropertyTweenLifetime",
+        "EmitterController.new",
+        "EmitterController:_emitOnce",
+        "EmitterController:OnScaleChanged",
+        "EmitterController:updateSelection",
+        "EmitterController:SetPersistentLoopingMode",
+        "EmitterController:SetPersistentTrailMode",
+        "EmitterController:cleanup",
+        "EmitterController:_findLoopingObjectForInstance",
+        "EmitterController:_handleLoopButtonClick",
+        "EmitterController:_handleTrailButtonClick",
+        "EmitterController:_setGlobalLoopingState",
+        "EmitterController:_setGlobalTrailState",
+        "EmitterController:_hideInstance",
+        "scanAndHide",
+        "EmitterController:_showAllHiddenInstances",
+        "EmitterController:_findFirstAncestorWithAttribute",
+        "EmitterController:_getLoopingContainerForInstance",
+        "EmitterController:_findAttributeContainerForInstance",
+        "EmitterController:_isAnySelectedObjectLooping",
+        "EmitterController:_isAnySelectedInstanceTrailing",
+        "EmitterController:_startGlobalLoop",
+        "EmitterController:_startGlobalTrail",
+        "EmitterController:_resetGlobalTrailPositions",
+        "EmitterController:_initializeUIReferences",
+        "EmitterController:_captureOriginalOptionsTransparencies",
+        "EmitterController:_captureOriginalAdvancedPanelTransparencies",
+        "EmitterController:_initializeUIState",
+        "EmitterController:_setupAllConnections",
+        "EmitterController:_recursivelyTweenAdvancedPanelTransparency",
+        "EmitterController:_animateAdvancedPanel",
+        "EmitterController:_setupButton",
+        "EmitterController:_setupEmitButton",
+        "updateThemeColors",
+        "EmitterController:_setupAllConnections",
+        "EmitterController:_updateVisualsForButton",
+        "EmitterController:_updateLoopVisuals",
+        "EmitterController:_updateTrailVisuals",
+        "EmitterController:_setActiveSubPanel",
+        "EmitterController:_setAdvancedTab",
+        "EmitterController:_setupAdvancedTabs",
+        "EmitterController:_updateAllAdvancedTabVisuals",
+        "EmitterController:_setOptionsMenuState",
+        "EmitterController:_recursivelyTweenTransparency",
+        "EmitterController:_animatePanel",
+        "EmitterController:_animateCodeModal",
+        "EmitterController:_updateToggleButtonVisuals",
+        "EmitterController:_updateCheckButtonVisuals",
+        "EmitterController:_setupAttributeSetter",
+        "EmitterController:_getContainerForInstance",
+        "EmitterController:_updateAttributeDisplays",
+        "getConsistentAttribute",
+        "updateTextbox"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/PropertiesViewController",
+      "lines": 334,
+      "functions": [
+        "_deserialize",
+        "PropertiesViewController:Activate",
+        "PropertiesViewController:Deactivate",
+        "PropertiesViewController.new",
+        "PropertiesViewController:_populateItemContent",
+        "PropertiesViewController:_onItemClicked"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/MeshesViewController",
+      "lines": 375,
+      "functions": [
+        "reconstructHierarchy",
+        "instantiateFromMeshData",
+        "MeshesViewController.new",
+        "MeshesViewController:Activate",
+        "MeshesViewController:Deactivate",
+        "MeshesViewController:_populateItemContent",
+        "MeshesViewController:_onItemClicked"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/AddPropertiesController",
+      "lines": 555,
+      "functions": [
+        "AddPropertiesController.new",
+        "AddPropertiesController:SetVisible",
+        "AddPropertiesController:IsVisible",
+        "AddPropertiesController:_populatePropertiesList",
+        "AddPropertiesController:_updateSelectedCountAndSelectAllButton",
+        "AddPropertiesController:_updateTemplateSize",
+        "AddPropertiesController:_filterProperties",
+        "AddPropertiesController:_setupConnections",
+        "updateSelectAllButtonColor",
+        "AddPropertiesController:_onSelectionChanged",
+        "AddPropertiesController:_handleCreate",
+        "AddPropertiesController:_deserialize",
+        "AddPropertiesController:ShowPreview",
+        "AddPropertiesController:_cleanupPreview",
+        "AddPropertiesController:_transitionToFirstFrame",
+        "AddPropertiesController:_transitionToSecondFrame",
+        "AddPropertiesController:_updateCreateButtonState",
+        "AddPropertiesController:_startDashedStrokeAnimation",
+        "updateAndRestartTween",
+        "AddPropertiesController:_setupCancelButton",
+        "AddPropertiesController:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/AddMeshController",
+      "lines": 487,
+      "functions": [
+        "AddMeshController.new",
+        "AddMeshController:cleanup",
+        "AddMeshController:AnimateFrameVisibility",
+        "AddMeshController:_saveOriginalTransparencies",
+        "AddMeshController:_saveOriginalViewportUITransparencies",
+        "AddMeshController:_recursivelySetTransparency",
+        "AddMeshController:_recursivelyTweenTransparency",
+        "AddMeshController:_setupCancelButton",
+        "AddMeshController:_setupCreateButton",
+        "updateBaseColor",
+        "AddMeshController:_setupConnections",
+        "handleCancel",
+        "handleCreate",
+        "AddMeshController:_updateFromSelection",
+        "AddMeshController:_updateCreateButtonState",
+        "AddMeshController:_cloneAndSetupPreview",
+        "AddMeshController:_cleanupPreview",
+        "AddMeshController:_animateViewportPlaceholderUI",
+        "AddMeshController:_setViewportPlaceholderUIVisible",
+        "AddMeshController:_animateMeshPreview",
+        "AddMeshController:_setupPreviewWorld"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/AddSoundController",
+      "lines": 338,
+      "functions": [
+        "AddSoundController.new",
+        "AddSoundController:cleanup",
+        "AddSoundController:AnimateFrameVisibility",
+        "AddSoundController:_updateFromSelection",
+        "AddSoundController:_setupConnections",
+        "AddSoundController:_handleCreate",
+        "AddSoundController:_loadAndPreviewSound",
+        "AddSoundController:_stopAndClearPreview",
+        "AddSoundController:_setupCancelButton",
+        "AddSoundController:_setupCreateButton",
+        "AddSoundController:_updateCreateButtonState",
+        "AddSoundController:_setPlaceholderVisible",
+        "AddSoundController:_saveOriginalTransparencies",
+        "AddSoundController:_recursivelySetTransparency",
+        "AddSoundController:_recursivelyTweenTransparency"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/AddVFXController",
+      "lines": 498,
+      "functions": [
+        "AddVFXController.new",
+        "AddVFXController:cleanup",
+        "AddVFXController:_recursivelySetTransparency",
+        "AddVFXController:_recursivelyTweenTransparency",
+        "AddVFXController:_saveOriginalTransparencies",
+        "AddVFXController:_setupPreviewWorld",
+        "AddVFXController:_cleanupPreview",
+        "AddVFXController:_setupLivePreview",
+        "AddVFXController:_setPlaceholderVisible",
+        "AddVFXController:_updateCreateButtonState",
+        "AddVFXController:_hasEmitters",
+        "AddVFXController:_refreshPreviewFromSelection",
+        "AddVFXController:AnimateFrameVisibility",
+        "AddVFXController:_setupCancelButton",
+        "applyTheme",
+        "AddVFXController:_setupCreateButton",
+        "updateBaseColor",
+        "AddVFXController:_setupConnections"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/AdvancedEmitterPanel",
+      "lines": 476,
+      "functions": [
+        "AdvancedEmitterPanel.new",
+        "AdvancedEmitterPanel:_updateAllAdvancedTabVisuals",
+        "AdvancedEmitterPanel:_initializeUIReferences",
+        "AdvancedEmitterPanel:_registerFeatures",
+        "AdvancedEmitterPanel:UpdateSelection",
+        "AdvancedEmitterPanel:_handlePluginDeactivated",
+        "AdvancedEmitterPanel:getActiveAccordionManager",
+        "AdvancedEmitterPanel:_setupAccordions",
+        "AdvancedEmitterPanel:UpdateAllStepTitles",
+        "AdvancedEmitterPanel:_onTabSelected",
+        "AdvancedEmitterPanel:OnScaleChanged",
+        "AdvancedEmitterPanel:PerformLayoutCalculation",
+        "AdvancedEmitterPanel:_precalculateAllTabHeights",
+        "AdvancedEmitterPanel:_updateAdvancedPanelLayout",
+        "performLayout",
+        "AdvancedEmitterPanel:_updateScrollbarVisibility",
+        "AdvancedEmitterPanel:_setupTabNavigation",
+        "AdvancedEmitterPanel:_updateTabVisuals",
+        "AdvancedEmitterPanel:Cleanup3DPath",
+        "AdvancedEmitterPanel:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/AdvancedEmitterPanel/AccordionFeatureRegistry",
+      "lines": 62,
+      "functions": [
+        "AccordionFeatureRegistry.new",
+        "AccordionFeatureRegistry:RegisterFeature",
+        "AccordionFeatureRegistry:UpdateSelection",
+        "AccordionFeatureRegistry:Cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/AdvancedEmitterPanel/ShakeStep",
+      "lines": 47,
+      "functions": [
+        "ShakeStep.new",
+        "ShakeStep:GetValue",
+        "ShakeStep:LoadData",
+        "ShakeStep:UpdateTarget",
+        "ShakeStep:Destroy"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/AdvancedEmitterPanel/TweenStep",
+      "lines": 584,
+      "functions": [
+        "TweenStep.new",
+        "TweenStep:_setupDeleteButtonStyling",
+        "TweenStep:_initializeUIReferences",
+        "TweenStep:_updateStepTitle",
+        "TweenStep:_onControlModified",
+        "TweenStep:_setupCommonControls",
+        "TweenStep:_populateOnCompletionDropdown",
+        "addStepsFromController",
+        "TweenStep:_setupPathModeControllers",
+        "TweenStep:_setupCollapseFeature",
+        "TweenStep:_onPathModeChanged",
+        "TweenStep:_toggleOpen",
+        "TweenStep:getStartCFrame",
+        "TweenStep:LoadData",
+        "TweenStep:GetValue",
+        "TweenStep:SetValue",
+        "TweenStep:SetPathMode",
+        "TweenStep:UpdateTarget",
+        "TweenStep:Cleanup3DPath",
+        "TweenStep:Destroy"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/AdvancedEmitterPanel/TweenStep/PathModeControllers/RandomizedController",
+      "lines": 373,
+      "functions": [
+        "_toVector3",
+        "RandomizedController.new",
+        "onRandomnessChanged",
+        "RandomizedController:_regeneratePreviewRandomness",
+        "RandomizedController:DrawPathsFromStarts",
+        "RandomizedController:DrawEditorAndCalculateEndCFrames",
+        "RandomizedController:CalculateEndCFrames",
+        "RandomizedController:_onGizmoDragged",
+        "RandomizedController:UpdateHandlePositions",
+        "RandomizedController:GetData",
+        "RandomizedController:IsEditing",
+        "RandomizedController:CreateOrUpdateHandles",
+        "RandomizedController:UpdateTarget",
+        "RandomizedController:LoadData",
+        "RandomizedController:Cleanup3DPath",
+        "RandomizedController:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/AdvancedEmitterPanel/TweenStep/PathModeControllers/LinearController",
+      "lines": 314,
+      "functions": [
+        "_toVector3",
+        "LinearController.new",
+        "LinearController:_convertRelativePoints",
+        "LinearController:DrawPathsFromStarts",
+        "LinearController:DrawEditorAndCalculateEndCFrames",
+        "LinearController:GetData",
+        "LinearController:LoadData",
+        "LinearController:ResizePathGroups",
+        "LinearController:_toggleEditor",
+        "LinearController:_getWorldPoints",
+        "LinearController:CalculateEndCFrames",
+        "LinearController:UpdateTarget",
+        "LinearController:IsEditing",
+        "LinearController:Cleanup3DPath",
+        "LinearController:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/AdvancedEmitterPanel/TweenStep/PathModeControllers/ArcController",
+      "lines": 347,
+      "functions": [
+        "_toVector3",
+        "ArcController.new",
+        "onRandomnessChanged",
+        "ArcController:_regeneratePreviewRandomness",
+        "ArcController:DrawPathsFromStarts",
+        "ArcController:DrawEditorAndCalculateEndCFrames",
+        "ArcController:CalculateEndCFrames",
+        "ArcController:_onGizmoDragged",
+        "ArcController:UpdateHandlePositions",
+        "ArcController:IsEditing",
+        "ArcController:CreateOrUpdateHandles",
+        "ArcController:UpdateTarget",
+        "ArcController:LoadData",
+        "ArcController:GetData",
+        "ArcController:Cleanup3DPath",
+        "ArcController:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/AdvancedEmitterPanel/TweenStep/PathModeControllers/ManualController",
+      "lines": 256,
+      "functions": [
+        "ManualController.new",
+        "updateButtonTheme",
+        "ManualController:ResizePathGroups",
+        "ManualController:_toggleEditor",
+        "ManualController:DrawPathsFromStarts",
+        "ManualController:DrawEditorAndCalculateEndCFrames",
+        "ManualController:UpdateTarget",
+        "ManualController:IsEditing",
+        "ManualController:Cleanup3DPath",
+        "ManualController:GetData",
+        "ManualController:LoadData",
+        "ManualController:CalculateEndCFrames",
+        "ManualController:_getWorldPoints",
+        "ManualController:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/AdvancedEmitterPanel/AccordionFeatureController",
+      "lines": 574,
+      "functions": [
+        "_toVector3",
+        "AccordionFeatureController.new",
+        "AccordionFeatureController:_updateAddButtonVisuals",
+        "AccordionFeatureController:_updateAllPathPreviews",
+        "AccordionFeatureController:SetAllPathsVisible",
+        "AccordionFeatureController:SetAccordionOpenState",
+        "AccordionFeatureController:ResetStepTitles",
+        "AccordionFeatureController:UpdateAllStepTitles",
+        "AccordionFeatureController:_updateStepNumbers",
+        "AccordionFeatureController:SetStepTitleAsTriggered",
+        "AccordionFeatureController:_addStep",
+        "AccordionFeatureController:getStartingCFramesForStep",
+        "AccordionFeatureController:RedrawAllPaths",
+        "AccordionFeatureController:_redrawPathsFromStep",
+        "AccordionFeatureController:UpdateSelection",
+        "AccordionFeatureController:_applyDataToSelection",
+        "AccordionFeatureController:_syncAllDataToUI",
+        "AccordionFeatureController:_updateCountLockStates",
+        "AccordionFeatureController:notifyNextStepOfChange",
+        "AccordionFeatureController:_setupConnections",
+        "AccordionFeatureController:_removeStep",
+        "AccordionFeatureController:CleanupAllPathVisuals",
+        "AccordionFeatureController:Cleanup3DPath",
+        "AccordionFeatureController:_clearAllSteps",
+        "AccordionFeatureController:Destroy"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/AdvancedEmitterPanel/ImpactStep",
+      "lines": 48,
+      "functions": [
+        "ImpactStep.new",
+        "ImpactStep:GetValue",
+        "ImpactStep:LoadData",
+        "ImpactStep:UpdateTarget",
+        "ImpactStep:Destroy"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/AdvancedEmitterPanel/Configs/ImpactFrameConfig",
+      "lines": 59,
+      "functions": {},
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/AdvancedEmitterPanel/Configs/CameraShakeConfig",
+      "lines": 71,
+      "functions": {},
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/AdvancedEmitterPanel/Configs/TweenStepConfig",
+      "lines": 99,
+      "functions": {},
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/ScriptsViewController",
+      "lines": 99,
+      "functions": [
+        "ScriptsViewController.new",
+        "ScriptsViewController:Activate",
+        "ScriptsViewController:Deactivate",
+        "ScriptsViewController:_populateItemContent",
+        "ScriptsViewController:_onItemClicked"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/SoundViewController",
+      "lines": 333,
+      "functions": [
+        "_formatTime",
+        "SoundViewController.new",
+        "SoundViewController:Activate",
+        "SoundViewController:_stopCurrentAudio",
+        "SoundViewController:_updateAudioItemVisuals",
+        "SoundViewController:_onItemClicked",
+        "SoundViewController:_handlePlayback",
+        "SoundViewController:_populateItemContent"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/BezierPathController",
+      "lines": 377,
+      "functions": [
+        "BezierPathController.new",
+        "BezierPathController:_redrawVisuals",
+        "getLineFromPool",
+        "BezierPathController:Cleanup",
+        "BezierPathController:_create3DHandles",
+        "BezierPathController:IsEditing",
+        "BezierPathController:GetData",
+        "BezierPathController:DrawPreview",
+        "BezierPathController:UpdateTarget",
+        "BezierPathController:UpdatePathForSelection",
+        "BezierPathController:_on3DHandleClicked",
+        "BezierPathController:_onGizmoDragged",
+        "BezierPathController:Destroy"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/TweenFrameController",
+      "lines": 301,
+      "functions": [
+        "TweenFrameController.new",
+        "TweenFrameController:_initializeControlGroup",
+        "TweenFrameController:UpdateForSelection",
+        "TweenFrameController:_cacheAndClearTargetPosition",
+        "TweenFrameController:_restoreTargetPositionFromCache",
+        "TweenFrameController:_cacheAndClearBezierAttributes",
+        "TweenFrameController:_restoreBezierAttributesFromCache",
+        "TweenFrameController:_captureOriginalTargetPosTransparencies",
+        "TweenFrameController:_tweenTargetPosTransparencies",
+        "onTweenCompleteWrapper",
+        "TweenFrameController:Destroy"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/CameraShakeController",
+      "lines": 327,
+      "functions": [
+        "_serializeStepData",
+        "_deserializeStepData",
+        "CameraShakeController.new",
+        "CameraShakeController:_initializeUIReferences",
+        "CameraShakeController:_setupConnections",
+        "CameraShakeController:_updateStepNumbers",
+        "CameraShakeController:_addShakeStep",
+        "CameraShakeController:_removeShakeStep",
+        "CameraShakeController:_applyAttributesToSelection",
+        "CameraShakeController:_clearAllSteps",
+        "CameraShakeController:UpdateSelection",
+        "CameraShakeController:Destroy"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/GizmoController",
+      "lines": 382,
+      "functions": [
+        "GizmoController.new",
+        "GizmoController:ShowAt",
+        "GizmoController:Hide",
+        "GizmoController:_connectInputEvents",
+        "GizmoController:_startDrag",
+        "GizmoController:_stopDrag",
+        "GizmoController:IsVisible",
+        "GizmoController:_animateVisibility",
+        "GizmoController:_beginUpdateLoop",
+        "updateHover",
+        "GizmoController:_rayPlaneIntersection",
+        "GizmoController:_processDrag",
+        "GizmoController:Destroy"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/PathVisualizer",
+      "lines": 195,
+      "functions": [
+        "PathVisualizer.new",
+        "PathVisualizer:IsEditing",
+        "PathVisualizer:UpdateVisuals",
+        "PathVisualizer:_onGizmoDragged",
+        "PathVisualizer:CleanupHandles",
+        "PathVisualizer:Cleanup",
+        "PathVisualizer:_createHandlesForPaths",
+        "PathVisualizer:_onHandleClicked",
+        "PathVisualizer:_redrawVisuals",
+        "PathVisualizer:Destroy"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/Triangulator",
+      "lines": 83,
+      "functions": [
+        "b",
+        "g",
+        "a.triangulate"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/LinearPathController",
+      "lines": 105,
+      "functions": [
+        "LinearController.new",
+        "LinearController:_toggleEditor",
+        "LinearController:DrawPreview",
+        "LinearController:UpdateTarget",
+        "LinearController:IsEditing",
+        "LinearController:GetData",
+        "LinearController:Cleanup3DPath",
+        "LinearController:_getWorldPoints",
+        "LinearController:_savePathToTarget",
+        "LinearController:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/ThemePresetsController",
+      "lines": 130,
+      "functions": [
+        "ThemePresetsController.new",
+        "ThemePresetsController:_setupDropdown",
+        "ThemePresetsController:_populateDropdown",
+        "ThemePresetsController:_updateActionButtonsState",
+        "ThemePresetsController:_setupActionButtons",
+        "ThemePresetsController:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/GeneralSettingsController",
+      "lines": 36,
+      "functions": [
+        "GeneralSettingsController.new",
+        "GeneralSettingsController:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/PathEditorUtils",
+      "lines": 290,
+      "functions": [
+        "getOrCreateAdornmentContainer",
+        "PathEditorUtils.DrawCurveRecursively",
+        "getOrCreateAdornment",
+        "PathEditorUtils.getContainer",
+        "PathEditorUtils.ReturnAllParts",
+        "PathEditorUtils.BeginPathDrawing",
+        "PathEditorUtils.EndPathDrawing",
+        "PathEditorUtils.BeginHandleLineDrawing",
+        "PathEditorUtils.EndHandleLineDrawing",
+        "PathEditorUtils.drawCurveSegment",
+        "PathEditorUtils.drawHandleLine",
+        "PathEditorUtils.createHandle",
+        "PathEditorUtils.ReturnHandleToPool",
+        "PathEditorUtils.cleanupAll"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/ColorsSettingsController",
+      "lines": 79,
+      "functions": [
+        "ColorsSettingsController.new",
+        "ColorsSettingsController:_populateColors",
+        "ColorsSettingsController:GetCurrentColorSettings",
+        "ColorsSettingsController:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Panels/InterfaceSettingsController",
+      "lines": 136,
+      "functions": [
+        "InterfaceSettingsController.new",
+        "InterfaceSettingsController:_setupSettingTextBox",
+        "formatText",
+        "InterfaceSettingsController:_setupSettingSwitch",
+        "InterfaceSettingsController:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/UI/UIStyler",
+      "lines": 111,
+      "functions": [
+        "UIStyler.ApplyStandardStyling",
+        "updateSharedStroke"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/UI/ResizableFrame",
+      "lines": 159,
+      "functions": [
+        "ResizableFrame.new",
+        "ResizableFrame:update",
+        "ResizableFrame:destroy",
+        "ResizableFrame:_createHandles",
+        "ResizableFrame:_onDragStart"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/UI/Slider",
+      "lines": 234,
+      "functions": [
+        "Slider.new",
+        "Slider:Track",
+        "onDragStart",
+        "onBackgroundClick",
+        "Slider:Update",
+        "Slider:OverrideValue",
+        "Slider:_getPercentFromValue",
+        "Slider:Move",
+        "Slider:GetValue",
+        "Slider:Destroy"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/UI/MultiPreviewGrid",
+      "lines": 221,
+      "functions": [
+        "MultiPreviewGrid.new",
+        "MultiPreviewGrid:setAssetIds",
+        "MultiPreviewGrid:setGridValue",
+        "MultiPreviewGrid:setFPS",
+        "MultiPreviewGrid:setResolution",
+        "MultiPreviewGrid:_restartAllLoadedAnimations",
+        "MultiPreviewGrid:_setupListeners",
+        "MultiPreviewGrid:_recalculateLayout",
+        "MultiPreviewGrid:_requestUpdateVisibleItems",
+        "MultiPreviewGrid:_updateVisibleItems",
+        "MultiPreviewGrid:_loadItem",
+        "MultiPreviewGrid:_unloadItem",
+        "MultiPreviewGrid:_clearAllItems",
+        "MultiPreviewGrid:getAssetIds",
+        "MultiPreviewGrid:Destroy"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/UI/AdvancedUIControls",
+      "lines": 131,
+      "functions": [
+        "AdvancedUIControls.new",
+        "AdvancedUIControls:Cleanup",
+        "AdvancedUIControls:StyleAddButton",
+        "AdvancedUIControls:_createSlider",
+        "AdvancedUIControls:CreateCameraShakeStep",
+        "styleTextBoxesIn"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/UI/AccordionManager",
+      "lines": 196,
+      "functions": [
+        "AccordionManager.new",
+        "AccordionManager:registerAccordion",
+        "AccordionManager:_manuallyCalculateContentHeight",
+        "AccordionManager:updateAccordionSize",
+        "AccordionManager:setAccordionOpenHeight",
+        "AccordionManager:CloseAccordion",
+        "AccordionManager:_toggleAccordion",
+        "AccordionManager:calculateCurrentHeight",
+        "AccordionManager:_updateParentContainerSize",
+        "AccordionManager:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/UI/AudioTimelineController",
+      "lines": 363,
+      "functions": [
+        "AudioTimelineController.new",
+        "AudioTimelineController:IsSeeking",
+        "AudioTimelineController:_onTimelineClicked",
+        "AudioTimelineController:SetActivePlayback",
+        "AudioTimelineController:SetInactivePlayback",
+        "AudioTimelineController:_onHeartbeat",
+        "AudioTimelineController:LoadFromAudioPlayer",
+        "AudioTimelineController:SetBarsVisible",
+        "AudioTimelineController:Clear",
+        "AudioTimelineController:_updateColors",
+        "AudioTimelineController:_renderWaveform",
+        "AudioTimelineController:_updatePlayheadVisibility",
+        "AudioTimelineController:_updateTimelineVisuals",
+        "AudioTimelineController:Destroy"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/UI/SliderFuncs",
+      "lines": 73,
+      "functions": [
+        "lerp",
+        "SliderFuncs.snapToScale",
+        "SliderFuncs.getNewPosition",
+        "SliderFuncs.getScaleIncrement",
+        "SliderFuncs.getNewValue",
+        "SliderFuncs.getAlphaBetween"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/UI/BaseGridViewController",
+      "lines": 857,
+      "functions": [
+        "BaseGridViewController.new",
+        "BaseGridViewController:refreshAllVisibleItems",
+        "BaseGridViewController:_updateAllLoadedAnimations",
+        "BaseGridViewController:setFilters",
+        "BaseGridViewController:applyFilters",
+        "BaseGridViewController:Activate",
+        "BaseGridViewController:recalculateLayout",
+        "BaseGridViewController:EnableRenameModeForItem",
+        "BaseGridViewController:_setupSearchListener",
+        "BaseGridViewController:Deactivate",
+        "BaseGridViewController:setDataSource",
+        "BaseGridViewController:applyCategoryFilter",
+        "BaseGridViewController:Destroy",
+        "BaseGridViewController:_populateItemContent",
+        "BaseGridViewController:_onItemClicked",
+        "BaseGridViewController:_loadItem",
+        "BaseGridViewController:_setupCommonItemUI",
+        "BaseGridViewController:_setupAddButtonTweens",
+        "BaseGridViewController:_setupListeners",
+        "BaseGridViewController:_requestUpdateVisibleItems",
+        "BaseGridViewController:_updateVisibleItems",
+        "BaseGridViewController:_unloadItem",
+        "BaseGridViewController:_getTemplateInstance",
+        "BaseGridViewController:_clearAllItems"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/UI/ThemeApplier",
+      "lines": 160,
+      "functions": [
+        "getColorKey",
+        "getOrScanThemeProps",
+        "applyGradient",
+        "removeGradient",
+        "applyToSingleInstance",
+        "ThemeApplier.Apply"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/UI/ControlGroup",
+      "lines": 265,
+      "functions": [
+        "ControlGroup.new",
+        "updateThemeColors",
+        "ControlGroup:_onControlChanged",
+        "ControlGroup:_createControls",
+        "updateTextColor",
+        "ControlGroup:LoadData",
+        "ControlGroup:GetValue",
+        "ControlGroup:_setupCollapseFeature",
+        "ControlGroup:_toggleOpen",
+        "ControlGroup:_setupDeleteButton",
+        "ControlGroup:Destroy"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/UI/ButtonManager",
+      "lines": 421,
+      "functions": [
+        "ButtonManager.new",
+        "ButtonManager:_setupButton",
+        "ButtonManager:registerStatelessButton",
+        "setInitialState",
+        "ButtonManager:registerStatefulGroup",
+        "ButtonManager:refreshGroupIndicator",
+        "ButtonManager:addButtonToGroup",
+        "ButtonManager:removeButtonFromGroup",
+        "ButtonManager:_updateButtonVisuals",
+        "ButtonManager:setActiveButton",
+        "ButtonManager:getActiveButton",
+        "ButtonManager:_getIndicatorMetrics",
+        "ButtonManager:_moveIndicator",
+        "ButtonManager:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/UI/ColorPicker",
+      "lines": 270,
+      "functions": [
+        "ColorPicker.new",
+        "ColorPicker:SetColor",
+        "ColorPicker:GetColor",
+        "ColorPicker:SetVisible",
+        "ColorPicker:_updateTextBoxes",
+        "update",
+        "ColorPicker:_updateLiveVisuals",
+        "ColorPicker:_updateColor",
+        "ColorPicker:_cancelInternal",
+        "ColorPicker:_startEyeDrop",
+        "ColorPicker:_stopEyeDrop",
+        "ColorPicker:_connectEvents",
+        "createDragHandler",
+        "createFocusLostHandler",
+        "ColorPicker:Destroy"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/UI/BadgeController",
+      "lines": 136,
+      "functions": [
+        "BadgeController.new",
+        "BadgeController:_getDisplayText",
+        "BadgeController:_getBadgeSize",
+        "BadgeController:_animateShow",
+        "BadgeController:_animateHide",
+        "BadgeController:_animateWiggle",
+        "BadgeController:updateCount",
+        "BadgeController:cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/UI/ControlBuilders/BooleanToggleControlBuilder",
+      "lines": 103,
+      "functions": [
+        "_setupSwitchVisuals",
+        "BooleanToggleControlBuilder.Build",
+        "updateVisuals"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/UI/ControlBuilders/ColorControlBuilder",
+      "lines": 184,
+      "functions": [
+        "ColorControlBuilder.Build",
+        "updateTextColor",
+        "updateColor",
+        "handleSVDrag"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/UI/ControlBuilders/TargetPositionControlBuilder",
+      "lines": 243,
+      "functions": [
+        "formatVector3",
+        "parseVector3",
+        "TargetPositionControlBuilder.Build",
+        "updateTextBoxDisplay",
+        "updateRecordButtonVisuals",
+        "updateClearButtonVisuals",
+        "startRecording",
+        "stopRecording"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/UI/ControlBuilders/TextBoxControlBuilder",
+      "lines": 64,
+      "functions": [
+        "TextBoxControlBuilder.Build",
+        "updateTextColor"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/UI/ControlBuilders/SliderControlBuilder",
+      "lines": 89,
+      "functions": [
+        "SliderControlBuilder.Build"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/UI/ControlBuilders/PresetDropdownControlBuilder",
+      "lines": 228,
+      "functions": [
+        "PresetDropdownControlBuilder.Build",
+        "toggleList",
+        "clearActivePresetDisplay"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/UI/ControlBuilders/DropdownControlBuilder",
+      "lines": 250,
+      "functions": [
+        "DropdownControlBuilder.Build",
+        "updateSelectedDisplay",
+        "toggleList",
+        "setupOption"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/UI/ControlBuilders/Vector3ControlBuilder",
+      "lines": 91,
+      "functions": [
+        "Vector3ControlBuilder.Build",
+        "updateTextColors",
+        "handleFocusLost"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Shared/AnimationUtils",
+      "lines": 115,
+      "functions": [
+        "AnimationUtils.startGridAnimation",
+        "AnimationUtils.stopGridAnimation"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Shared/Janitor",
+      "lines": 125,
+      "functions": [
+        "Janitor.new",
+        "Janitor:Add",
+        "Janitor:Stop",
+        "Janitor:Remove",
+        "Janitor:Cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Shared/SharedConstants",
+      "lines": 103,
+      "functions": {},
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Shared/Utils",
+      "lines": 187,
+      "functions": [
+        "stripString_fallback",
+        "Utils.parseKeywordsString",
+        "Utils.extractAssetId",
+        "Utils.findNamedChildWhichIsA",
+        "Utils.tableToString",
+        "Utils.deepCopy",
+        "Utils.deepCopyColorSequence",
+        "Utils.deepCompareColorSequences",
+        "Utils.deepCopyColorSequenceTable",
+        "Utils.compareKeywordsTables"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Shared/TweenManager",
+      "lines": 84,
+      "functions": [
+        "TweenManager.Play",
+        "TweenManager.Stop"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Shared/Signal",
+      "lines": 54,
+      "functions": [
+        "Signal.new",
+        "Signal:Fire",
+        "Signal:Connect",
+        "Signal:Once",
+        "Signal:Wait",
+        "Signal:Destroy"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Shared/SpriteAnimator",
+      "lines": 85,
+      "functions": [
+        "SpriteAnimator.stop",
+        "SpriteAnimator.play"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Shared/CameraShaker",
+      "lines": 206,
+      "functions": [
+        "CameraShaker.new",
+        "CameraShaker:Start",
+        "CameraShaker:Stop",
+        "CameraShaker:StopSustained",
+        "CameraShaker:Update",
+        "CameraShaker:Shake",
+        "CameraShaker:ShakeSustain",
+        "CameraShaker:ShakeOnce",
+        "CameraShaker:StartShake"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Shared/CameraShaker/CameraShakeInstance",
+      "lines": 168,
+      "functions": [
+        "CameraShakeInstance.new",
+        "CameraShakeInstance:UpdateShake",
+        "CameraShakeInstance:StartFadeOut",
+        "CameraShakeInstance:StartFadeIn",
+        "CameraShakeInstance:GetScaleRoughness",
+        "CameraShakeInstance:SetScaleRoughness",
+        "CameraShakeInstance:GetScaleMagnitude",
+        "CameraShakeInstance:SetScaleMagnitude",
+        "CameraShakeInstance:GetNormalizedFadeTime",
+        "CameraShakeInstance:IsShaking",
+        "CameraShakeInstance:IsFadingOut",
+        "CameraShakeInstance:IsFadingIn",
+        "CameraShakeInstance:GetState"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Shared/CameraShaker/CameraShakePresets",
+      "lines": 129,
+      "functions": {},
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Shared/ObjectPool",
+      "lines": 46,
+      "functions": [
+        "ObjectPool.get",
+        "ObjectPool.release",
+        "ObjectPool.cleanup"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Shared/PerceptualColor",
+      "lines": 67,
+      "functions": [
+        "sRGB.toLinear",
+        "inverse",
+        "sRGB.fromLinear",
+        "transform",
+        "PerceptualColor.fromSRGB",
+        "PerceptualColor.toSRGB"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Shared/UIAnimator",
+      "lines": 107,
+      "functions": [
+        "UIAnimator.CaptureTransparencies",
+        "processGui",
+        "UIAnimator.AnimateIn",
+        "UIAnimator.AnimateOut"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Shared/PathGenerator",
+      "lines": 33,
+      "functions": [
+        "PathGenerator.generate"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Shared/PropertyManager",
+      "lines": 311,
+      "functions": [
+        "extractTypeNames",
+        "PropertyManager.GetClassInfo",
+        "PropertyManager.GetClassProperties",
+        "PropertyManager.GetPropertyNamesDirect",
+        "PropertyManager.GetVisiblePropertiesAndAttributes",
+        "PropertyManager.GetTweenableProperties",
+        "PropertyManager.ApplyProperty"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Shared/NotificationManager",
+      "lines": 426,
+      "functions": [
+        "_updateScrolling",
+        "Toast.new",
+        "Toast:recalculateSizeAndCorners",
+        "Toast:show",
+        "Toast:destroy",
+        "_updateContainerLayout",
+        "createContainer",
+        "NotificationManager.init",
+        "NotificationManager.show",
+        "NotificationManager.destroy"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Shared/VersionInfo",
+      "lines": 3,
+      "functions": {},
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Shared/PathGenerators/ManualPath",
+      "lines": 44,
+      "functions": [
+        "_toVector3",
+        "ManualPath.generate"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Shared/PathGenerators/RandomizedPath",
+      "lines": 34,
+      "functions": [
+        "RandomizedPath.generate"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Shared/PathGenerators/LinearPath",
+      "lines": 8,
+      "functions": [
+        "LinearPath.generate"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Modules/Shared/PathGenerators/ArcPath",
+      "lines": 35,
+      "functions": [
+        "ArcPath.generate"
+      ],
+      "licenseMentions": {}
+    },
+    {
+      "path": "VFX Studio/Defaults/Meshes/GravityBallShockwave/Script",
+      "lines": 1042,
+      "functions": [
+        "ChatLocalization:Get",
+        "TryRemoveChildWithVerifyingIsCorrectType",
+        "CheckIfPointIsInSquare",
+        "DoBackgroundFadeIn",
+        "DoBackgroundFadeOut",
+        "DoTextFadeIn",
+        "DoTextFadeOut",
+        "DoFadeInFromNewInformation",
+        "InstantFadeIn",
+        "InstantFadeOut",
+        "UpdateFadingForMouseState",
+        "getClassicChatEnabled",
+        "getBubbleChatEnabled",
+        "bubbleChatOnly",
+        "UpdateMousePosition",
+        "Util.Signal",
+        "sig:fire",
+        "sig:connect",
+        "sig:wait",
+        "SetVisibility",
+        "moduleApiTable:ToggleVisibility",
+        "moduleApiTable:SetVisible",
+        "moduleApiTable:FocusChatBar",
+        "moduleApiTable:GetVisibility",
+        "moduleApiTable:GetMessageCount",
+        "moduleApiTable:TopbarEnabledChanged",
+        "moduleApiTable:IsFocused",
+        "moduleApiTable:fChatWindowPosition",
+        "moduleApiTable:fChatWindowSize",
+        "moduleApiTable:fChatBarDisabled",
+        "moduleApiTable:SpecialKeyPressed",
+        "trimTrailingSpaces",
+        "DoChatBarFocus",
+        "DoSwitchCurrentChannel",
+        "SendMessageToSelfInTargetChannel",
+        "chatBarFocused",
+        "chatBarFocusLost",
+        "setupChatBarConnections",
+        "getEchoMessagesInGeneral",
+        "HandleChannelJoined",
+        "SendSystemMessageToSelf",
+        "MutePlayer",
+        "UnmutePlayer"
+      ],
+      "licenseMentions": {}
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-18",
+  "arc": {
+    "file": "Plugin.rbxm",
+    "sha256": "a0487135cb1644dd83c186ee1d8969263b4efc5668b3c28c665a9690a863b09f",
+    "installedSha256": "a0487135cb1644dd83c186ee1d8969263b4efc5668b3c28c665a9690a863b09f",
+    "author": "sevenIIl",
+    "version": "2.0.0",
+    "permission": "https://devforum.roblox.com/t/arc-a-vfx-animation-plugin/4903133/10"
+  },
+  "vfxStudio": {
+    "file": "../135581141962270/36372145307849/Plugin.rbxm",
+    "sha256": "4cd056bc8d2ab0053995035e611b049c38b3eceaf53e4f2e57a63304d3a0169c",
+    "author": "XxOmqxXNerd / Sytranom",
+    "codeCopied": false,
+    "license": "https://github.com/Sytranom/VFXStudio/blob/main/LICENSE.md"
+  }
+}

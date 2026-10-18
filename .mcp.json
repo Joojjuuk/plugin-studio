@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "arc_vfx": {
+      "type": "stdio",
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": ["C:\\projects_joojjuuk\\roblox\\plugin_roblox\\arc-vfx\\mcp\\dist\\server\\index.js"]
+    }
+  }
+}

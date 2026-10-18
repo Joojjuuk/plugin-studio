@@ -1,0 +1,3654 @@
+[
+  {
+    "id": "fire_burst",
+    "name": "fire burst",
+    "category": "fire",
+    "tags": [
+      "fire",
+      "burst"
+    ],
+    "version": "1.0.0",
+    "type": "ParticleEmitter",
+    "properties": {
+      "Enabled": false,
+      "Rate": 0,
+      "Texture": "rbxasset://textures/particles/sparkles_main.dds",
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            1,
+            0.27,
+            0.04
+          ],
+          [
+            1,
+            1,
+            0.27,
+            0.04
+          ]
+        ]
+      },
+      "LightEmission": 0.8,
+      "Speed": {
+        "t": "NumberRange",
+        "v": [
+          8,
+          16
+        ]
+      },
+      "Lifetime": {
+        "t": "NumberRange",
+        "v": [
+          0.2,
+          0.55
+        ]
+      },
+      "Size": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0.45,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "SpreadAngle": {
+        "t": "Vector2",
+        "v": [
+          180,
+          180
+        ]
+      }
+    },
+    "resources": [
+      "rbxasset://textures/particles/sparkles_main.dds"
+    ],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "fire_mist",
+    "name": "fire mist",
+    "category": "fire",
+    "tags": [
+      "fire",
+      "mist"
+    ],
+    "version": "1.0.0",
+    "type": "ParticleEmitter",
+    "properties": {
+      "Enabled": false,
+      "Rate": 0,
+      "Texture": "rbxasset://textures/particles/smoke_main.dds",
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            1,
+            0.27,
+            0.04
+          ],
+          [
+            1,
+            1,
+            0.27,
+            0.04
+          ]
+        ]
+      },
+      "Speed": {
+        "t": "NumberRange",
+        "v": [
+          1,
+          3
+        ]
+      },
+      "Lifetime": {
+        "t": "NumberRange",
+        "v": [
+          0.6,
+          1.2
+        ]
+      },
+      "Size": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            4,
+            0
+          ]
+        ]
+      },
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0.5,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    "resources": [
+      "rbxasset://textures/particles/smoke_main.dds"
+    ],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "fire_shard",
+    "name": "fire shard",
+    "category": "fire",
+    "tags": [
+      "fire",
+      "shard"
+    ],
+    "version": "1.0.0",
+    "type": "WedgePart",
+    "properties": {
+      "Size": {
+        "t": "Vector3",
+        "v": [
+          0.4,
+          2,
+          0.6
+        ]
+      },
+      "Color": {
+        "t": "Color3",
+        "v": [
+          1,
+          0.27,
+          0.04
+        ]
+      },
+      "Material": {
+        "t": "EnumItem",
+        "v": [
+          "Material",
+          "Neon"
+        ]
+      },
+      "Transparency": 0.15,
+      "Anchored": true,
+      "CanCollide": false
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "fire_trail",
+    "name": "fire trail",
+    "category": "fire",
+    "tags": [
+      "fire",
+      "trail"
+    ],
+    "version": "1.0.0",
+    "type": "Trail",
+    "properties": {
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            1,
+            0.27,
+            0.04
+          ],
+          [
+            1,
+            1,
+            0.27,
+            0.04
+          ]
+        ]
+      },
+      "Lifetime": 0.14,
+      "LightEmission": 1,
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "Enabled": true
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "fire_arc",
+    "name": "fire arc",
+    "category": "fire",
+    "tags": [
+      "fire",
+      "arc"
+    ],
+    "version": "1.0.0",
+    "type": "Beam",
+    "properties": {
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            1,
+            0.27,
+            0.04
+          ],
+          [
+            1,
+            1,
+            0.27,
+            0.04
+          ]
+        ]
+      },
+      "Width0": 0.25,
+      "Width1": 0.05,
+      "LightEmission": 1,
+      "FaceCamera": true
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "ice_burst",
+    "name": "ice burst",
+    "category": "ice",
+    "tags": [
+      "ice",
+      "burst"
+    ],
+    "version": "1.0.0",
+    "type": "ParticleEmitter",
+    "properties": {
+      "Enabled": false,
+      "Rate": 0,
+      "Texture": "rbxasset://textures/particles/sparkles_main.dds",
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.25,
+            0.8,
+            1
+          ],
+          [
+            1,
+            0.25,
+            0.8,
+            1
+          ]
+        ]
+      },
+      "LightEmission": 0.8,
+      "Speed": {
+        "t": "NumberRange",
+        "v": [
+          8,
+          16
+        ]
+      },
+      "Lifetime": {
+        "t": "NumberRange",
+        "v": [
+          0.2,
+          0.55
+        ]
+      },
+      "Size": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0.45,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "SpreadAngle": {
+        "t": "Vector2",
+        "v": [
+          180,
+          180
+        ]
+      }
+    },
+    "resources": [
+      "rbxasset://textures/particles/sparkles_main.dds"
+    ],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "ice_mist",
+    "name": "ice mist",
+    "category": "ice",
+    "tags": [
+      "ice",
+      "mist"
+    ],
+    "version": "1.0.0",
+    "type": "ParticleEmitter",
+    "properties": {
+      "Enabled": false,
+      "Rate": 0,
+      "Texture": "rbxasset://textures/particles/smoke_main.dds",
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.25,
+            0.8,
+            1
+          ],
+          [
+            1,
+            0.25,
+            0.8,
+            1
+          ]
+        ]
+      },
+      "Speed": {
+        "t": "NumberRange",
+        "v": [
+          1,
+          3
+        ]
+      },
+      "Lifetime": {
+        "t": "NumberRange",
+        "v": [
+          0.6,
+          1.2
+        ]
+      },
+      "Size": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            4,
+            0
+          ]
+        ]
+      },
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0.5,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    "resources": [
+      "rbxasset://textures/particles/smoke_main.dds"
+    ],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "ice_shard",
+    "name": "ice shard",
+    "category": "ice",
+    "tags": [
+      "ice",
+      "shard"
+    ],
+    "version": "1.0.0",
+    "type": "WedgePart",
+    "properties": {
+      "Size": {
+        "t": "Vector3",
+        "v": [
+          0.4,
+          2,
+          0.6
+        ]
+      },
+      "Color": {
+        "t": "Color3",
+        "v": [
+          0.25,
+          0.8,
+          1
+        ]
+      },
+      "Material": {
+        "t": "EnumItem",
+        "v": [
+          "Material",
+          "Neon"
+        ]
+      },
+      "Transparency": 0.15,
+      "Anchored": true,
+      "CanCollide": false
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "ice_trail",
+    "name": "ice trail",
+    "category": "ice",
+    "tags": [
+      "ice",
+      "trail"
+    ],
+    "version": "1.0.0",
+    "type": "Trail",
+    "properties": {
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.25,
+            0.8,
+            1
+          ],
+          [
+            1,
+            0.25,
+            0.8,
+            1
+          ]
+        ]
+      },
+      "Lifetime": 0.14,
+      "LightEmission": 1,
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "Enabled": true
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "ice_arc",
+    "name": "ice arc",
+    "category": "ice",
+    "tags": [
+      "ice",
+      "arc"
+    ],
+    "version": "1.0.0",
+    "type": "Beam",
+    "properties": {
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.25,
+            0.8,
+            1
+          ],
+          [
+            1,
+            0.25,
+            0.8,
+            1
+          ]
+        ]
+      },
+      "Width0": 0.25,
+      "Width1": 0.05,
+      "LightEmission": 1,
+      "FaceCamera": true
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "stone_burst",
+    "name": "stone burst",
+    "category": "stone",
+    "tags": [
+      "stone",
+      "burst"
+    ],
+    "version": "1.0.0",
+    "type": "ParticleEmitter",
+    "properties": {
+      "Enabled": false,
+      "Rate": 0,
+      "Texture": "rbxasset://textures/particles/sparkles_main.dds",
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.42,
+            0.35,
+            0.28
+          ],
+          [
+            1,
+            0.42,
+            0.35,
+            0.28
+          ]
+        ]
+      },
+      "LightEmission": 0.8,
+      "Speed": {
+        "t": "NumberRange",
+        "v": [
+          8,
+          16
+        ]
+      },
+      "Lifetime": {
+        "t": "NumberRange",
+        "v": [
+          0.2,
+          0.55
+        ]
+      },
+      "Size": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0.45,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "SpreadAngle": {
+        "t": "Vector2",
+        "v": [
+          180,
+          180
+        ]
+      }
+    },
+    "resources": [
+      "rbxasset://textures/particles/sparkles_main.dds"
+    ],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "stone_mist",
+    "name": "stone mist",
+    "category": "stone",
+    "tags": [
+      "stone",
+      "mist"
+    ],
+    "version": "1.0.0",
+    "type": "ParticleEmitter",
+    "properties": {
+      "Enabled": false,
+      "Rate": 0,
+      "Texture": "rbxasset://textures/particles/smoke_main.dds",
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.42,
+            0.35,
+            0.28
+          ],
+          [
+            1,
+            0.42,
+            0.35,
+            0.28
+          ]
+        ]
+      },
+      "Speed": {
+        "t": "NumberRange",
+        "v": [
+          1,
+          3
+        ]
+      },
+      "Lifetime": {
+        "t": "NumberRange",
+        "v": [
+          0.6,
+          1.2
+        ]
+      },
+      "Size": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            4,
+            0
+          ]
+        ]
+      },
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0.5,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    "resources": [
+      "rbxasset://textures/particles/smoke_main.dds"
+    ],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "stone_shard",
+    "name": "stone shard",
+    "category": "stone",
+    "tags": [
+      "stone",
+      "shard"
+    ],
+    "version": "1.0.0",
+    "type": "WedgePart",
+    "properties": {
+      "Size": {
+        "t": "Vector3",
+        "v": [
+          0.4,
+          2,
+          0.6
+        ]
+      },
+      "Color": {
+        "t": "Color3",
+        "v": [
+          0.42,
+          0.35,
+          0.28
+        ]
+      },
+      "Material": {
+        "t": "EnumItem",
+        "v": [
+          "Material",
+          "Neon"
+        ]
+      },
+      "Transparency": 0.15,
+      "Anchored": true,
+      "CanCollide": false
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "stone_trail",
+    "name": "stone trail",
+    "category": "stone",
+    "tags": [
+      "stone",
+      "trail"
+    ],
+    "version": "1.0.0",
+    "type": "Trail",
+    "properties": {
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.42,
+            0.35,
+            0.28
+          ],
+          [
+            1,
+            0.42,
+            0.35,
+            0.28
+          ]
+        ]
+      },
+      "Lifetime": 0.14,
+      "LightEmission": 1,
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "Enabled": true
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "stone_arc",
+    "name": "stone arc",
+    "category": "stone",
+    "tags": [
+      "stone",
+      "arc"
+    ],
+    "version": "1.0.0",
+    "type": "Beam",
+    "properties": {
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.42,
+            0.35,
+            0.28
+          ],
+          [
+            1,
+            0.42,
+            0.35,
+            0.28
+          ]
+        ]
+      },
+      "Width0": 0.25,
+      "Width1": 0.05,
+      "LightEmission": 1,
+      "FaceCamera": true
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "electricity_burst",
+    "name": "electricity burst",
+    "category": "electricity",
+    "tags": [
+      "electricity",
+      "burst"
+    ],
+    "version": "1.0.0",
+    "type": "ParticleEmitter",
+    "properties": {
+      "Enabled": false,
+      "Rate": 0,
+      "Texture": "rbxasset://textures/particles/sparkles_main.dds",
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.65,
+            0.4,
+            1
+          ],
+          [
+            1,
+            0.65,
+            0.4,
+            1
+          ]
+        ]
+      },
+      "LightEmission": 0.8,
+      "Speed": {
+        "t": "NumberRange",
+        "v": [
+          8,
+          16
+        ]
+      },
+      "Lifetime": {
+        "t": "NumberRange",
+        "v": [
+          0.2,
+          0.55
+        ]
+      },
+      "Size": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0.45,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "SpreadAngle": {
+        "t": "Vector2",
+        "v": [
+          180,
+          180
+        ]
+      }
+    },
+    "resources": [
+      "rbxasset://textures/particles/sparkles_main.dds"
+    ],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "electricity_mist",
+    "name": "electricity mist",
+    "category": "electricity",
+    "tags": [
+      "electricity",
+      "mist"
+    ],
+    "version": "1.0.0",
+    "type": "ParticleEmitter",
+    "properties": {
+      "Enabled": false,
+      "Rate": 0,
+      "Texture": "rbxasset://textures/particles/smoke_main.dds",
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.65,
+            0.4,
+            1
+          ],
+          [
+            1,
+            0.65,
+            0.4,
+            1
+          ]
+        ]
+      },
+      "Speed": {
+        "t": "NumberRange",
+        "v": [
+          1,
+          3
+        ]
+      },
+      "Lifetime": {
+        "t": "NumberRange",
+        "v": [
+          0.6,
+          1.2
+        ]
+      },
+      "Size": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            4,
+            0
+          ]
+        ]
+      },
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0.5,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    "resources": [
+      "rbxasset://textures/particles/smoke_main.dds"
+    ],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "electricity_shard",
+    "name": "electricity shard",
+    "category": "electricity",
+    "tags": [
+      "electricity",
+      "shard"
+    ],
+    "version": "1.0.0",
+    "type": "WedgePart",
+    "properties": {
+      "Size": {
+        "t": "Vector3",
+        "v": [
+          0.4,
+          2,
+          0.6
+        ]
+      },
+      "Color": {
+        "t": "Color3",
+        "v": [
+          0.65,
+          0.4,
+          1
+        ]
+      },
+      "Material": {
+        "t": "EnumItem",
+        "v": [
+          "Material",
+          "Neon"
+        ]
+      },
+      "Transparency": 0.15,
+      "Anchored": true,
+      "CanCollide": false
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "electricity_trail",
+    "name": "electricity trail",
+    "category": "electricity",
+    "tags": [
+      "electricity",
+      "trail"
+    ],
+    "version": "1.0.0",
+    "type": "Trail",
+    "properties": {
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.65,
+            0.4,
+            1
+          ],
+          [
+            1,
+            0.65,
+            0.4,
+            1
+          ]
+        ]
+      },
+      "Lifetime": 0.14,
+      "LightEmission": 1,
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "Enabled": true
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "electricity_arc",
+    "name": "electricity arc",
+    "category": "electricity",
+    "tags": [
+      "electricity",
+      "arc"
+    ],
+    "version": "1.0.0",
+    "type": "Beam",
+    "properties": {
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.65,
+            0.4,
+            1
+          ],
+          [
+            1,
+            0.65,
+            0.4,
+            1
+          ]
+        ]
+      },
+      "Width0": 0.25,
+      "Width1": 0.05,
+      "LightEmission": 1,
+      "FaceCamera": true
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "combat_burst",
+    "name": "combat burst",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "burst"
+    ],
+    "version": "1.0.0",
+    "type": "ParticleEmitter",
+    "properties": {
+      "Enabled": false,
+      "Rate": 0,
+      "Texture": "rbxasset://textures/particles/sparkles_main.dds",
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            1,
+            0.85,
+            0.55
+          ],
+          [
+            1,
+            1,
+            0.85,
+            0.55
+          ]
+        ]
+      },
+      "LightEmission": 0.8,
+      "Speed": {
+        "t": "NumberRange",
+        "v": [
+          8,
+          16
+        ]
+      },
+      "Lifetime": {
+        "t": "NumberRange",
+        "v": [
+          0.2,
+          0.55
+        ]
+      },
+      "Size": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0.45,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "SpreadAngle": {
+        "t": "Vector2",
+        "v": [
+          180,
+          180
+        ]
+      }
+    },
+    "resources": [
+      "rbxasset://textures/particles/sparkles_main.dds"
+    ],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "combat_mist",
+    "name": "combat mist",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "mist"
+    ],
+    "version": "1.0.0",
+    "type": "ParticleEmitter",
+    "properties": {
+      "Enabled": false,
+      "Rate": 0,
+      "Texture": "rbxasset://textures/particles/smoke_main.dds",
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            1,
+            0.85,
+            0.55
+          ],
+          [
+            1,
+            1,
+            0.85,
+            0.55
+          ]
+        ]
+      },
+      "Speed": {
+        "t": "NumberRange",
+        "v": [
+          1,
+          3
+        ]
+      },
+      "Lifetime": {
+        "t": "NumberRange",
+        "v": [
+          0.6,
+          1.2
+        ]
+      },
+      "Size": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            4,
+            0
+          ]
+        ]
+      },
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0.5,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    "resources": [
+      "rbxasset://textures/particles/smoke_main.dds"
+    ],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "combat_shard",
+    "name": "combat shard",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "shard"
+    ],
+    "version": "1.0.0",
+    "type": "WedgePart",
+    "properties": {
+      "Size": {
+        "t": "Vector3",
+        "v": [
+          0.4,
+          2,
+          0.6
+        ]
+      },
+      "Color": {
+        "t": "Color3",
+        "v": [
+          1,
+          0.85,
+          0.55
+        ]
+      },
+      "Material": {
+        "t": "EnumItem",
+        "v": [
+          "Material",
+          "Neon"
+        ]
+      },
+      "Transparency": 0.15,
+      "Anchored": true,
+      "CanCollide": false
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "combat_trail",
+    "name": "combat trail",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "trail"
+    ],
+    "version": "1.0.0",
+    "type": "Trail",
+    "properties": {
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            1,
+            0.85,
+            0.55
+          ],
+          [
+            1,
+            1,
+            0.85,
+            0.55
+          ]
+        ]
+      },
+      "Lifetime": 0.14,
+      "LightEmission": 1,
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "Enabled": true
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "combat_arc",
+    "name": "combat arc",
+    "category": "combat",
+    "tags": [
+      "combat",
+      "arc"
+    ],
+    "version": "1.0.0",
+    "type": "Beam",
+    "properties": {
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            1,
+            0.85,
+            0.55
+          ],
+          [
+            1,
+            1,
+            0.85,
+            0.55
+          ]
+        ]
+      },
+      "Width0": 0.25,
+      "Width1": 0.05,
+      "LightEmission": 1,
+      "FaceCamera": true
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "energy_burst",
+    "name": "energy burst",
+    "category": "energy",
+    "tags": [
+      "energy",
+      "burst"
+    ],
+    "version": "1.0.0",
+    "type": "ParticleEmitter",
+    "properties": {
+      "Enabled": false,
+      "Rate": 0,
+      "Texture": "rbxasset://textures/particles/sparkles_main.dds",
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.25,
+            1,
+            0.8
+          ],
+          [
+            1,
+            0.25,
+            1,
+            0.8
+          ]
+        ]
+      },
+      "LightEmission": 0.8,
+      "Speed": {
+        "t": "NumberRange",
+        "v": [
+          8,
+          16
+        ]
+      },
+      "Lifetime": {
+        "t": "NumberRange",
+        "v": [
+          0.2,
+          0.55
+        ]
+      },
+      "Size": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0.45,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "SpreadAngle": {
+        "t": "Vector2",
+        "v": [
+          180,
+          180
+        ]
+      }
+    },
+    "resources": [
+      "rbxasset://textures/particles/sparkles_main.dds"
+    ],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "energy_mist",
+    "name": "energy mist",
+    "category": "energy",
+    "tags": [
+      "energy",
+      "mist"
+    ],
+    "version": "1.0.0",
+    "type": "ParticleEmitter",
+    "properties": {
+      "Enabled": false,
+      "Rate": 0,
+      "Texture": "rbxasset://textures/particles/smoke_main.dds",
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.25,
+            1,
+            0.8
+          ],
+          [
+            1,
+            0.25,
+            1,
+            0.8
+          ]
+        ]
+      },
+      "Speed": {
+        "t": "NumberRange",
+        "v": [
+          1,
+          3
+        ]
+      },
+      "Lifetime": {
+        "t": "NumberRange",
+        "v": [
+          0.6,
+          1.2
+        ]
+      },
+      "Size": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            4,
+            0
+          ]
+        ]
+      },
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0.5,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    "resources": [
+      "rbxasset://textures/particles/smoke_main.dds"
+    ],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "energy_shard",
+    "name": "energy shard",
+    "category": "energy",
+    "tags": [
+      "energy",
+      "shard"
+    ],
+    "version": "1.0.0",
+    "type": "WedgePart",
+    "properties": {
+      "Size": {
+        "t": "Vector3",
+        "v": [
+          0.4,
+          2,
+          0.6
+        ]
+      },
+      "Color": {
+        "t": "Color3",
+        "v": [
+          0.25,
+          1,
+          0.8
+        ]
+      },
+      "Material": {
+        "t": "EnumItem",
+        "v": [
+          "Material",
+          "Neon"
+        ]
+      },
+      "Transparency": 0.15,
+      "Anchored": true,
+      "CanCollide": false
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "energy_trail",
+    "name": "energy trail",
+    "category": "energy",
+    "tags": [
+      "energy",
+      "trail"
+    ],
+    "version": "1.0.0",
+    "type": "Trail",
+    "properties": {
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.25,
+            1,
+            0.8
+          ],
+          [
+            1,
+            0.25,
+            1,
+            0.8
+          ]
+        ]
+      },
+      "Lifetime": 0.14,
+      "LightEmission": 1,
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "Enabled": true
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "energy_arc",
+    "name": "energy arc",
+    "category": "energy",
+    "tags": [
+      "energy",
+      "arc"
+    ],
+    "version": "1.0.0",
+    "type": "Beam",
+    "properties": {
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.25,
+            1,
+            0.8
+          ],
+          [
+            1,
+            0.25,
+            1,
+            0.8
+          ]
+        ]
+      },
+      "Width0": 0.25,
+      "Width1": 0.05,
+      "LightEmission": 1,
+      "FaceCamera": true
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "shadow_burst",
+    "name": "shadow burst",
+    "category": "shadow",
+    "tags": [
+      "shadow",
+      "burst"
+    ],
+    "version": "1.0.0",
+    "type": "ParticleEmitter",
+    "properties": {
+      "Enabled": false,
+      "Rate": 0,
+      "Texture": "rbxasset://textures/particles/sparkles_main.dds",
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.2,
+            0.08,
+            0.4
+          ],
+          [
+            1,
+            0.2,
+            0.08,
+            0.4
+          ]
+        ]
+      },
+      "LightEmission": 0.8,
+      "Speed": {
+        "t": "NumberRange",
+        "v": [
+          8,
+          16
+        ]
+      },
+      "Lifetime": {
+        "t": "NumberRange",
+        "v": [
+          0.2,
+          0.55
+        ]
+      },
+      "Size": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0.45,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "SpreadAngle": {
+        "t": "Vector2",
+        "v": [
+          180,
+          180
+        ]
+      }
+    },
+    "resources": [
+      "rbxasset://textures/particles/sparkles_main.dds"
+    ],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "shadow_mist",
+    "name": "shadow mist",
+    "category": "shadow",
+    "tags": [
+      "shadow",
+      "mist"
+    ],
+    "version": "1.0.0",
+    "type": "ParticleEmitter",
+    "properties": {
+      "Enabled": false,
+      "Rate": 0,
+      "Texture": "rbxasset://textures/particles/smoke_main.dds",
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.2,
+            0.08,
+            0.4
+          ],
+          [
+            1,
+            0.2,
+            0.08,
+            0.4
+          ]
+        ]
+      },
+      "Speed": {
+        "t": "NumberRange",
+        "v": [
+          1,
+          3
+        ]
+      },
+      "Lifetime": {
+        "t": "NumberRange",
+        "v": [
+          0.6,
+          1.2
+        ]
+      },
+      "Size": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            4,
+            0
+          ]
+        ]
+      },
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0.5,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    "resources": [
+      "rbxasset://textures/particles/smoke_main.dds"
+    ],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "shadow_shard",
+    "name": "shadow shard",
+    "category": "shadow",
+    "tags": [
+      "shadow",
+      "shard"
+    ],
+    "version": "1.0.0",
+    "type": "WedgePart",
+    "properties": {
+      "Size": {
+        "t": "Vector3",
+        "v": [
+          0.4,
+          2,
+          0.6
+        ]
+      },
+      "Color": {
+        "t": "Color3",
+        "v": [
+          0.2,
+          0.08,
+          0.4
+        ]
+      },
+      "Material": {
+        "t": "EnumItem",
+        "v": [
+          "Material",
+          "Neon"
+        ]
+      },
+      "Transparency": 0.15,
+      "Anchored": true,
+      "CanCollide": false
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "shadow_trail",
+    "name": "shadow trail",
+    "category": "shadow",
+    "tags": [
+      "shadow",
+      "trail"
+    ],
+    "version": "1.0.0",
+    "type": "Trail",
+    "properties": {
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.2,
+            0.08,
+            0.4
+          ],
+          [
+            1,
+            0.2,
+            0.08,
+            0.4
+          ]
+        ]
+      },
+      "Lifetime": 0.14,
+      "LightEmission": 1,
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "Enabled": true
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "shadow_arc",
+    "name": "shadow arc",
+    "category": "shadow",
+    "tags": [
+      "shadow",
+      "arc"
+    ],
+    "version": "1.0.0",
+    "type": "Beam",
+    "properties": {
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.2,
+            0.08,
+            0.4
+          ],
+          [
+            1,
+            0.2,
+            0.08,
+            0.4
+          ]
+        ]
+      },
+      "Width0": 0.25,
+      "Width1": 0.05,
+      "LightEmission": 1,
+      "FaceCamera": true
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "blood_burst",
+    "name": "blood burst",
+    "category": "blood",
+    "tags": [
+      "blood",
+      "burst"
+    ],
+    "version": "1.0.0",
+    "type": "ParticleEmitter",
+    "properties": {
+      "Enabled": false,
+      "Rate": 0,
+      "Texture": "rbxasset://textures/particles/sparkles_main.dds",
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.7,
+            0.035,
+            0.05
+          ],
+          [
+            1,
+            0.7,
+            0.035,
+            0.05
+          ]
+        ]
+      },
+      "LightEmission": 0.8,
+      "Speed": {
+        "t": "NumberRange",
+        "v": [
+          8,
+          16
+        ]
+      },
+      "Lifetime": {
+        "t": "NumberRange",
+        "v": [
+          0.2,
+          0.55
+        ]
+      },
+      "Size": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0.45,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "SpreadAngle": {
+        "t": "Vector2",
+        "v": [
+          180,
+          180
+        ]
+      }
+    },
+    "resources": [
+      "rbxasset://textures/particles/sparkles_main.dds"
+    ],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "blood_mist",
+    "name": "blood mist",
+    "category": "blood",
+    "tags": [
+      "blood",
+      "mist"
+    ],
+    "version": "1.0.0",
+    "type": "ParticleEmitter",
+    "properties": {
+      "Enabled": false,
+      "Rate": 0,
+      "Texture": "rbxasset://textures/particles/smoke_main.dds",
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.7,
+            0.035,
+            0.05
+          ],
+          [
+            1,
+            0.7,
+            0.035,
+            0.05
+          ]
+        ]
+      },
+      "Speed": {
+        "t": "NumberRange",
+        "v": [
+          1,
+          3
+        ]
+      },
+      "Lifetime": {
+        "t": "NumberRange",
+        "v": [
+          0.6,
+          1.2
+        ]
+      },
+      "Size": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            4,
+            0
+          ]
+        ]
+      },
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0.5,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    "resources": [
+      "rbxasset://textures/particles/smoke_main.dds"
+    ],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "blood_shard",
+    "name": "blood shard",
+    "category": "blood",
+    "tags": [
+      "blood",
+      "shard"
+    ],
+    "version": "1.0.0",
+    "type": "WedgePart",
+    "properties": {
+      "Size": {
+        "t": "Vector3",
+        "v": [
+          0.4,
+          2,
+          0.6
+        ]
+      },
+      "Color": {
+        "t": "Color3",
+        "v": [
+          0.7,
+          0.035,
+          0.05
+        ]
+      },
+      "Material": {
+        "t": "EnumItem",
+        "v": [
+          "Material",
+          "Neon"
+        ]
+      },
+      "Transparency": 0.15,
+      "Anchored": true,
+      "CanCollide": false
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "blood_trail",
+    "name": "blood trail",
+    "category": "blood",
+    "tags": [
+      "blood",
+      "trail"
+    ],
+    "version": "1.0.0",
+    "type": "Trail",
+    "properties": {
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.7,
+            0.035,
+            0.05
+          ],
+          [
+            1,
+            0.7,
+            0.035,
+            0.05
+          ]
+        ]
+      },
+      "Lifetime": 0.14,
+      "LightEmission": 1,
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "Enabled": true
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "blood_arc",
+    "name": "blood arc",
+    "category": "blood",
+    "tags": [
+      "blood",
+      "arc"
+    ],
+    "version": "1.0.0",
+    "type": "Beam",
+    "properties": {
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.7,
+            0.035,
+            0.05
+          ],
+          [
+            1,
+            0.7,
+            0.035,
+            0.05
+          ]
+        ]
+      },
+      "Width0": 0.25,
+      "Width1": 0.05,
+      "LightEmission": 1,
+      "FaceCamera": true
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "magic_burst",
+    "name": "magic burst",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "burst"
+    ],
+    "version": "1.0.0",
+    "type": "ParticleEmitter",
+    "properties": {
+      "Enabled": false,
+      "Rate": 0,
+      "Texture": "rbxasset://textures/particles/sparkles_main.dds",
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.8,
+            0.2,
+            1
+          ],
+          [
+            1,
+            0.8,
+            0.2,
+            1
+          ]
+        ]
+      },
+      "LightEmission": 0.8,
+      "Speed": {
+        "t": "NumberRange",
+        "v": [
+          8,
+          16
+        ]
+      },
+      "Lifetime": {
+        "t": "NumberRange",
+        "v": [
+          0.2,
+          0.55
+        ]
+      },
+      "Size": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0.45,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "SpreadAngle": {
+        "t": "Vector2",
+        "v": [
+          180,
+          180
+        ]
+      }
+    },
+    "resources": [
+      "rbxasset://textures/particles/sparkles_main.dds"
+    ],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "magic_mist",
+    "name": "magic mist",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "mist"
+    ],
+    "version": "1.0.0",
+    "type": "ParticleEmitter",
+    "properties": {
+      "Enabled": false,
+      "Rate": 0,
+      "Texture": "rbxasset://textures/particles/smoke_main.dds",
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.8,
+            0.2,
+            1
+          ],
+          [
+            1,
+            0.8,
+            0.2,
+            1
+          ]
+        ]
+      },
+      "Speed": {
+        "t": "NumberRange",
+        "v": [
+          1,
+          3
+        ]
+      },
+      "Lifetime": {
+        "t": "NumberRange",
+        "v": [
+          0.6,
+          1.2
+        ]
+      },
+      "Size": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            4,
+            0
+          ]
+        ]
+      },
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0.5,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    "resources": [
+      "rbxasset://textures/particles/smoke_main.dds"
+    ],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "magic_shard",
+    "name": "magic shard",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "shard"
+    ],
+    "version": "1.0.0",
+    "type": "WedgePart",
+    "properties": {
+      "Size": {
+        "t": "Vector3",
+        "v": [
+          0.4,
+          2,
+          0.6
+        ]
+      },
+      "Color": {
+        "t": "Color3",
+        "v": [
+          0.8,
+          0.2,
+          1
+        ]
+      },
+      "Material": {
+        "t": "EnumItem",
+        "v": [
+          "Material",
+          "Neon"
+        ]
+      },
+      "Transparency": 0.15,
+      "Anchored": true,
+      "CanCollide": false
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "magic_trail",
+    "name": "magic trail",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "trail"
+    ],
+    "version": "1.0.0",
+    "type": "Trail",
+    "properties": {
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.8,
+            0.2,
+            1
+          ],
+          [
+            1,
+            0.8,
+            0.2,
+            1
+          ]
+        ]
+      },
+      "Lifetime": 0.14,
+      "LightEmission": 1,
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "Enabled": true
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "magic_arc",
+    "name": "magic arc",
+    "category": "magic",
+    "tags": [
+      "magic",
+      "arc"
+    ],
+    "version": "1.0.0",
+    "type": "Beam",
+    "properties": {
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.8,
+            0.2,
+            1
+          ],
+          [
+            1,
+            0.8,
+            0.2,
+            1
+          ]
+        ]
+      },
+      "Width0": 0.25,
+      "Width1": 0.05,
+      "LightEmission": 1,
+      "FaceCamera": true
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "portal_burst",
+    "name": "portal burst",
+    "category": "portal",
+    "tags": [
+      "portal",
+      "burst"
+    ],
+    "version": "1.0.0",
+    "type": "ParticleEmitter",
+    "properties": {
+      "Enabled": false,
+      "Rate": 0,
+      "Texture": "rbxasset://textures/particles/sparkles_main.dds",
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.2,
+            0.5,
+            1
+          ],
+          [
+            1,
+            0.2,
+            0.5,
+            1
+          ]
+        ]
+      },
+      "LightEmission": 0.8,
+      "Speed": {
+        "t": "NumberRange",
+        "v": [
+          8,
+          16
+        ]
+      },
+      "Lifetime": {
+        "t": "NumberRange",
+        "v": [
+          0.2,
+          0.55
+        ]
+      },
+      "Size": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0.45,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "SpreadAngle": {
+        "t": "Vector2",
+        "v": [
+          180,
+          180
+        ]
+      }
+    },
+    "resources": [
+      "rbxasset://textures/particles/sparkles_main.dds"
+    ],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "portal_mist",
+    "name": "portal mist",
+    "category": "portal",
+    "tags": [
+      "portal",
+      "mist"
+    ],
+    "version": "1.0.0",
+    "type": "ParticleEmitter",
+    "properties": {
+      "Enabled": false,
+      "Rate": 0,
+      "Texture": "rbxasset://textures/particles/smoke_main.dds",
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.2,
+            0.5,
+            1
+          ],
+          [
+            1,
+            0.2,
+            0.5,
+            1
+          ]
+        ]
+      },
+      "Speed": {
+        "t": "NumberRange",
+        "v": [
+          1,
+          3
+        ]
+      },
+      "Lifetime": {
+        "t": "NumberRange",
+        "v": [
+          0.6,
+          1.2
+        ]
+      },
+      "Size": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            4,
+            0
+          ]
+        ]
+      },
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0.5,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    "resources": [
+      "rbxasset://textures/particles/smoke_main.dds"
+    ],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "portal_shard",
+    "name": "portal shard",
+    "category": "portal",
+    "tags": [
+      "portal",
+      "shard"
+    ],
+    "version": "1.0.0",
+    "type": "WedgePart",
+    "properties": {
+      "Size": {
+        "t": "Vector3",
+        "v": [
+          0.4,
+          2,
+          0.6
+        ]
+      },
+      "Color": {
+        "t": "Color3",
+        "v": [
+          0.2,
+          0.5,
+          1
+        ]
+      },
+      "Material": {
+        "t": "EnumItem",
+        "v": [
+          "Material",
+          "Neon"
+        ]
+      },
+      "Transparency": 0.15,
+      "Anchored": true,
+      "CanCollide": false
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "portal_trail",
+    "name": "portal trail",
+    "category": "portal",
+    "tags": [
+      "portal",
+      "trail"
+    ],
+    "version": "1.0.0",
+    "type": "Trail",
+    "properties": {
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.2,
+            0.5,
+            1
+          ],
+          [
+            1,
+            0.2,
+            0.5,
+            1
+          ]
+        ]
+      },
+      "Lifetime": 0.14,
+      "LightEmission": 1,
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "Enabled": true
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "portal_arc",
+    "name": "portal arc",
+    "category": "portal",
+    "tags": [
+      "portal",
+      "arc"
+    ],
+    "version": "1.0.0",
+    "type": "Beam",
+    "properties": {
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            0.2,
+            0.5,
+            1
+          ],
+          [
+            1,
+            0.2,
+            0.5,
+            1
+          ]
+        ]
+      },
+      "Width0": 0.25,
+      "Width1": 0.05,
+      "LightEmission": 1,
+      "FaceCamera": true
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "transformation_burst",
+    "name": "transformation burst",
+    "category": "transformation",
+    "tags": [
+      "transformation",
+      "burst"
+    ],
+    "version": "1.0.0",
+    "type": "ParticleEmitter",
+    "properties": {
+      "Enabled": false,
+      "Rate": 0,
+      "Texture": "rbxasset://textures/particles/sparkles_main.dds",
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            1,
+            0.85,
+            0.3
+          ],
+          [
+            1,
+            1,
+            0.85,
+            0.3
+          ]
+        ]
+      },
+      "LightEmission": 0.8,
+      "Speed": {
+        "t": "NumberRange",
+        "v": [
+          8,
+          16
+        ]
+      },
+      "Lifetime": {
+        "t": "NumberRange",
+        "v": [
+          0.2,
+          0.55
+        ]
+      },
+      "Size": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0.45,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "SpreadAngle": {
+        "t": "Vector2",
+        "v": [
+          180,
+          180
+        ]
+      }
+    },
+    "resources": [
+      "rbxasset://textures/particles/sparkles_main.dds"
+    ],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "transformation_mist",
+    "name": "transformation mist",
+    "category": "transformation",
+    "tags": [
+      "transformation",
+      "mist"
+    ],
+    "version": "1.0.0",
+    "type": "ParticleEmitter",
+    "properties": {
+      "Enabled": false,
+      "Rate": 0,
+      "Texture": "rbxasset://textures/particles/smoke_main.dds",
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            1,
+            0.85,
+            0.3
+          ],
+          [
+            1,
+            1,
+            0.85,
+            0.3
+          ]
+        ]
+      },
+      "Speed": {
+        "t": "NumberRange",
+        "v": [
+          1,
+          3
+        ]
+      },
+      "Lifetime": {
+        "t": "NumberRange",
+        "v": [
+          0.6,
+          1.2
+        ]
+      },
+      "Size": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            4,
+            0
+          ]
+        ]
+      },
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0.5,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    "resources": [
+      "rbxasset://textures/particles/smoke_main.dds"
+    ],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "transformation_shard",
+    "name": "transformation shard",
+    "category": "transformation",
+    "tags": [
+      "transformation",
+      "shard"
+    ],
+    "version": "1.0.0",
+    "type": "WedgePart",
+    "properties": {
+      "Size": {
+        "t": "Vector3",
+        "v": [
+          0.4,
+          2,
+          0.6
+        ]
+      },
+      "Color": {
+        "t": "Color3",
+        "v": [
+          1,
+          0.85,
+          0.3
+        ]
+      },
+      "Material": {
+        "t": "EnumItem",
+        "v": [
+          "Material",
+          "Neon"
+        ]
+      },
+      "Transparency": 0.15,
+      "Anchored": true,
+      "CanCollide": false
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "transformation_trail",
+    "name": "transformation trail",
+    "category": "transformation",
+    "tags": [
+      "transformation",
+      "trail"
+    ],
+    "version": "1.0.0",
+    "type": "Trail",
+    "properties": {
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            1,
+            0.85,
+            0.3
+          ],
+          [
+            1,
+            1,
+            0.85,
+            0.3
+          ]
+        ]
+      },
+      "Lifetime": 0.14,
+      "LightEmission": 1,
+      "Transparency": {
+        "t": "NumberSequence",
+        "v": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "Enabled": true
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  },
+  {
+    "id": "transformation_arc",
+    "name": "transformation arc",
+    "category": "transformation",
+    "tags": [
+      "transformation",
+      "arc"
+    ],
+    "version": "1.0.0",
+    "type": "Beam",
+    "properties": {
+      "Color": {
+        "t": "ColorSequence",
+        "v": [
+          [
+            0,
+            1,
+            0.85,
+            0.3
+          ],
+          [
+            1,
+            1,
+            0.85,
+            0.3
+          ]
+        ]
+      },
+      "Width0": 0.25,
+      "Width1": 0.05,
+      "LightEmission": 1,
+      "FaceCamera": true
+    },
+    "resources": [],
+    "origin": "Original parameter preset; Roblox engine primitives and bundled textures",
+    "license": "Original preset parameters; bundled texture remains Roblox content",
+    "compatibility": [
+      "Arc MCP 0.1",
+      "Roblox Studio"
+    ],
+    "approval": "approved",
+    "preview": null
+  }
+]

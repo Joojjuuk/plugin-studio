@@ -1,0 +1,12 @@
+import { randomBytes } from 'node:crypto';
+import { mkdirSync,readFileSync,writeFileSync,existsSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+export const root=fileURLToPath(new URL('../../../',import.meta.url));
+export const local=new URL('../../../.local/',import.meta.url);
+mkdirSync(local,{recursive:true});
+const tokenFile=new URL('token',local);
+if(!existsSync(tokenFile))writeFileSync(tokenFile,randomBytes(32).toString('hex'),{mode:0o600,flag:'wx'});
+export const token=readFileSync(tokenFile,'utf8').trim();
+export const port=Number(process.env.ARC_MCP_PORT??41573);
+if(!Number.isInteger(port)||port<1024||port>65535)throw Error('Invalid ARC_MCP_PORT');
+export const base=`http://127.0.0.1:${port}`;

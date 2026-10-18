@@ -1,0 +1,11 @@
+import {readFileSync,writeFileSync} from 'node:fs';import {createHash} from 'node:crypto';
+const m=JSON.parse(readFileSync('upstream/arc/manifest.json','utf8'));
+const scripts=m.rows.filter(x=>x.file).map(x=>{const source=readFileSync(x.file,'utf8');return {path:x.path,class:x.class,lines:x.lines,sha256:createHash('sha256').update(source).digest('hex'),functions:[...source.matchAll(/function\s+([\w_.:]+)\s*\(/g)].map(x=>x[1]),requires:[...source.matchAll(/require\(([^\n]+?)\)/g)].map(x=>x[1])};});
+if(new Set(scripts.map(x=>x.path)).size!==239)throw Error('Script extraction collision');
+writeFileSync('docs/arc-code-index.json',JSON.stringify({version:'2.0.0',instances:m.instances,scripts:scripts.length,lines:m.lines,modules:scripts},null,2));
+const vfx=JSON.parse(readFileSync('docs/vfx-studio-inventory.json','utf8'));
+const own=vfx.rows.filter(x=>x.functions&&!x.path.includes('/_Index/')&&!x.path.includes('/Defaults/Scripts/'));
+writeFileSync('docs/vfx-code-index.json',JSON.stringify({instances:vfx.instances,scripts:vfx.scripts,lines:vfx.lines,modules:own.map(({path,lines,functions,licenseMentions})=>({path,lines,functions,licenseMentions}))},null,2));
+const sha=path=>createHash('sha256').update(readFileSync(path)).digest('hex');
+writeFileSync('docs/provenance.json',JSON.stringify({date:'2026-10-18',arc:{file:'Plugin.rbxm',sha256:sha('Plugin.rbxm'),installedSha256:sha('../118257542877059/22180630254805/Plugin.rbxm'),author:'sevenIIl',version:'2.0.0',permission:'https://devforum.roblox.com/t/arc-a-vfx-animation-plugin/4903133/10'},vfxStudio:{file:'../135581141962270/36372145307849/Plugin.rbxm',sha256:sha('../135581141962270/36372145307849/Plugin.rbxm'),author:'XxOmqxXNerd / Sytranom',codeCopied:false,license:'https://github.com/Sytranom/VFXStudio/blob/main/LICENSE.md'}},null,2));
+console.log('Indexed all Arc scripts; VFX metadata only');

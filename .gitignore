@@ -1,0 +1,11 @@
+node_modules/
+mcp/dist/
+.local/
+builds/
+Plugin.rbxm
+upstream/arc/src/
+upstream/arc/manifest.json
+tests/evidence/*.json
+tests/evidence/*.png
+*.log
+docs/vfx-studio-inventory.json

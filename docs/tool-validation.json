@@ -1,0 +1,470 @@
+{
+  "date": "2026-10-18",
+  "registered": 61,
+  "exercised": 61,
+  "meaning": "At least one successful execution; not exhaustive coverage of every parameter combination.",
+  "tools": [
+    {
+      "tool": "vfx_status",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_list_studios",
+      "passed": true,
+      "sources": [
+        "studio-smoke.json",
+        "studio-demos.json"
+      ]
+    },
+    {
+      "tool": "vfx_disconnect",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_get_capabilities",
+      "passed": true,
+      "sources": [
+        "studio-smoke.json",
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_get_active_project",
+      "passed": true,
+      "sources": [
+        "studio-smoke.json",
+        "studio-demos.json",
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_list_projects",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_list_assets",
+      "passed": true,
+      "sources": [
+        "studio-operations.json",
+        "protocol-local.json"
+      ]
+    },
+    {
+      "tool": "vfx_list_presets",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_connect",
+      "passed": true,
+      "sources": [
+        "studio-smoke.json",
+        "studio-demos.json",
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_create_project",
+      "passed": true,
+      "sources": [
+        "studio-demos.json",
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_open_project",
+      "passed": true,
+      "sources": [
+        "studio-smoke.json",
+        "studio-demos.json",
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_get_project",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_save_project",
+      "passed": true,
+      "sources": [
+        "studio-smoke.json",
+        "studio-demos.json",
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_close_project",
+      "passed": true,
+      "sources": [
+        "studio-smoke.json",
+        "studio-demos.json",
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_list_objects",
+      "passed": true,
+      "sources": [
+        "studio-demos.json",
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_get_timeline",
+      "passed": true,
+      "sources": [
+        "studio-smoke.json",
+        "studio-demos.json",
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_list_tracks",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_preview",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_play",
+      "passed": true,
+      "sources": [
+        "studio-smoke.json",
+        "studio-demos.json",
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_pause",
+      "passed": true,
+      "sources": [
+        "studio-smoke.json",
+        "studio-demos.json",
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_stop",
+      "passed": true,
+      "sources": [
+        "studio-smoke.json",
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_get_playback_state",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_validate",
+      "passed": true,
+      "sources": [
+        "studio-smoke.json",
+        "studio-demos.json",
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_get_diagnostics",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_export",
+      "passed": true,
+      "sources": [
+        "studio-smoke.json",
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_export_runtime",
+      "passed": true,
+      "sources": [
+        "studio-demos.json",
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_get_performance",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_undo",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_redo",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_export_recipe",
+      "passed": true,
+      "sources": [
+        "studio-smoke.json",
+        "studio-demos.json",
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_duplicate_project",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_get_object",
+      "passed": true,
+      "sources": [
+        "studio-smoke.json"
+      ]
+    },
+    {
+      "tool": "vfx_delete_object",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_create_object",
+      "passed": true,
+      "sources": [
+        "studio-smoke.json",
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_create_emitter",
+      "passed": true,
+      "sources": [
+        "studio-smoke.json",
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_create_beam",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_create_trail",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_create_attachment",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_create_mesh",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_create_light",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_create_sound",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_duplicate_object",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_set_properties",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_parent_object",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_group_objects",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_set_duration",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_set_fps",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_create_track",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_delete_track",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_add_keyframe",
+      "passed": true,
+      "sources": [
+        "studio-smoke.json",
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_update_keyframe",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_delete_keyframe",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_move_keyframe",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_set_easing",
+      "passed": true,
+      "sources": [
+        "studio-smoke.json",
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_add_event",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_seek",
+      "passed": true,
+      "sources": [
+        "studio-smoke.json",
+        "studio-demos.json",
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_search_assets",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_import_asset",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_apply_preset",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_save_preset",
+      "passed": true,
+      "sources": [
+        "studio-operations.json"
+      ]
+    },
+    {
+      "tool": "vfx_import_recipe",
+      "passed": true,
+      "sources": [
+        "studio-demos.json",
+        "studio-operations.json"
+      ]
+    }
+  ]
+}

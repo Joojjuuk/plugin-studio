@@ -1,0 +1,295 @@
+{
+  "version": 1,
+  "id": "sword_slash_01",
+  "name": "Corte de espada",
+  "duration": 1,
+  "fps": 60,
+  "objects": [
+    {
+      "id": "blade",
+      "name": "Animated blade guide",
+      "type": "Part",
+      "properties": {
+        "Size": {
+          "t": "Vector3",
+          "v": [
+            0.12,
+            0.2,
+            4
+          ]
+        },
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -3,
+            5,
+            0,
+            0.5403023058681398,
+            0,
+            -0.8414709848078965,
+            0,
+            1,
+            0,
+            0.8414709848078965,
+            0,
+            0.5403023058681398
+          ]
+        },
+        "Color": {
+          "t": "Color3",
+          "v": [
+            1,
+            0.85,
+            0.55
+          ]
+        },
+        "Material": {
+          "t": "EnumItem",
+          "v": [
+            "Material",
+            "Neon"
+          ]
+        },
+        "Transparency": 0.2,
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "id": "a0",
+      "name": "Blade root",
+      "type": "Attachment",
+      "parentId": "blade",
+      "properties": {
+        "Position": {
+          "t": "Vector3",
+          "v": [
+            0,
+            0,
+            -2
+          ]
+        }
+      }
+    },
+    {
+      "id": "a1",
+      "name": "Blade tip",
+      "type": "Attachment",
+      "parentId": "blade",
+      "properties": {
+        "Position": {
+          "t": "Vector3",
+          "v": [
+            0,
+            0,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "id": "trail",
+      "name": "Sword trail",
+      "type": "Trail",
+      "parentId": "blade",
+      "preset": "combat_trail",
+      "properties": {
+        "Attachment0": {
+          "t": "Instance",
+          "v": "a0"
+        },
+        "Attachment1": {
+          "t": "Instance",
+          "v": "a1"
+        }
+      }
+    },
+    {
+      "id": "sparks",
+      "name": "Impact sparks",
+      "type": "ParticleEmitter",
+      "preset": "combat_burst",
+      "properties": {}
+    }
+  ],
+  "timeline": [
+    {
+      "objectId": "blade",
+      "frame": 0,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -3,
+            5,
+            0,
+            0.5403023058681398,
+            0,
+            -0.8414709848078965,
+            0,
+            1,
+            0,
+            0.8414709848078965,
+            0,
+            0.5403023058681398
+          ]
+        },
+        "Transparency": 1
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "InOut"
+    },
+    {
+      "objectId": "blade",
+      "frame": 7,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -3,
+            5,
+            0,
+            0.5403023058681398,
+            0,
+            -0.8414709848078965,
+            0,
+            1,
+            0,
+            0.8414709848078965,
+            0,
+            0.5403023058681398
+          ]
+        },
+        "Transparency": 0.5
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "InOut"
+    },
+    {
+      "objectId": "blade",
+      "frame": 13,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            -1,
+            5,
+            -2,
+            0.8775825618903728,
+            0,
+            -0.479425538604203,
+            0,
+            1,
+            0,
+            0.479425538604203,
+            0,
+            0.8775825618903728
+          ]
+        },
+        "Transparency": 0
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "InOut"
+    },
+    {
+      "objectId": "blade",
+      "frame": 19,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            2,
+            5,
+            -1,
+            0.955336489125606,
+            0,
+            0.29552020666133955,
+            0,
+            1,
+            0,
+            -0.29552020666133955,
+            0,
+            0.955336489125606
+          ]
+        },
+        "Transparency": 0
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "InOut"
+    },
+    {
+      "objectId": "blade",
+      "frame": 25,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            3,
+            5,
+            1,
+            0.5403023058681398,
+            0,
+            0.8414709848078965,
+            0,
+            1,
+            0,
+            -0.8414709848078965,
+            0,
+            0.5403023058681398
+          ]
+        },
+        "Transparency": 0.25
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "InOut"
+    },
+    {
+      "objectId": "blade",
+      "frame": 40,
+      "kind": "normal",
+      "properties": {
+        "CFrame": {
+          "t": "CFrame",
+          "v": [
+            3,
+            5,
+            1,
+            0.5403023058681398,
+            0,
+            0.8414709848078965,
+            0,
+            1,
+            0,
+            -0.8414709848078965,
+            0,
+            0.5403023058681398
+          ]
+        },
+        "Transparency": 1
+      },
+      "easingStyle": "Sine",
+      "easingDirection": "InOut"
+    },
+    {
+      "objectId": "sparks",
+      "frame": 19,
+      "kind": "emit",
+      "emit": {
+        "EmitCount": 24,
+        "EmitDuration": 0,
+        "EmitDelay": 0
+      },
+      "properties": {}
+    }
+  ],
+  "metadata": {
+    "author": "Original Arc MCP demonstration",
+    "license": "Original primitive composition",
+    "quality": "standard"
+  }
+}
